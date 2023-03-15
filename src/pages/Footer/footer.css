@@ -1,0 +1,163 @@
+.sticky {
+    position: -webkit-sticky;
+    bottom: 0;
+}
+.container{
+	width: 100%;
+	margin:auto;
+    bottom: 0;
+}
+.row{
+	display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: blueviolet;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    position: static;
+    padding: 2rem;    
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    overflow: hidden;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	margin-bottom: 30px;
+	position: relative;
+}
+.footer-col h5{
+	font-size: 14px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 30px;
+	font-weight: 500;
+	position: relative;
+}
+/* .footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #4c0867;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+} */
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col ul .contactList {
+    color: #ffffff;
+    padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+hr.dashed {
+    border-top: 2px dotted #fff;
+}
+
+.copyright {
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.to-top {
+	color: white;
+	padding-top: 1.8em;
+	display: inline-block;
+	/* or block */
+	position: relative;
+	border-color: white;
+	text-decoration: none;
+	transition: all .3s ease-out;
+}
+
+.to-top:before {
+	content: '▲';
+	font-size: .9em;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	margin-left: -.7em;
+	border: solid .13em white;
+	border-radius: 10em;
+	width: 1.4em;
+	height: 1.4em;
+	line-height: 1.3em;
+	border-color: inherit;
+	transition: transform .5s ease-in;
+}
+
+.to-top:hover {
+	color: pink;
+	border-color: pink;
+}
+
+.to-top:hover:before {
+	transform: rotate(360deg);
+}
+
+/*responsive*/
+@media(max-width: 767px) {
+    .footer-col {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width: 650px) {
+    .row {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .footer-col {
+        width: 100%;
+    }
+    .footer-col h5 {
+        font-size: small;
+    }
+}

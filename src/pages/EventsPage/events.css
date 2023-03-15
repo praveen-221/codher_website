@@ -1,0 +1,121 @@
+.events_container {
+    /* margin: 2rem; */
+    height: 100%;
+}
+
+.title span {
+    background: 50% 100% / 50% 50% no-repeat
+                radial-gradient(ellipse at bottom, #fff, transparent, transparent);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 2em; 
+    margin: .75em 0;
+    font-weight: 700;
+    animation: reveal 3000ms ease-in-out forwards 200ms,
+               glow 2500ms linear infinite 2000ms;
+}
+
+@keyframes reveal {
+    80%{
+      letter-spacing: 8px;
+    }
+    100% {
+      background-size: 300% 300%;
+    }
+}
+
+@keyframes glow {
+    40% {
+      text-shadow: 0 0 8px #fff;
+    }
+}
+
+.cardContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    user-select:none;
+    max-width: 400px;
+    margin: 5rem auto;
+    background: linear-gradient(
+      to bottom right,
+      rgba(255, 255, 255, 0.4),
+      rgba(233, 233, 233, 0.1)
+    );
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+    border-bottom: 1px solid #ccc;
+    box-shadow: 0 7px 20px 5px #00000088;
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
+    overflow: hidden;
+    transition: .5s all;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    padding: 1rem;
+}
+
+.description{
+    margin: 0.5rem 0;
+    color: #d7d7d7;
+    font-size: large;
+    line-height: 1.5;
+    letter-spacing: 0.05rem;
+}
+
+.card::before{
+    position: fixed;
+    content: "";
+    box-shadow: 0 0 100px 40px #ccc;
+    top: -10%;
+    left: -100%;
+    transform: rotate(-45deg);
+    height: 60rem;
+    transition: .7s all;
+}
+
+.card:hover{
+    border: 1px solid #ccc;
+    box-shadow: 0 7px #000000aa;
+    transform: scale(1.015);
+    filter: brightness(1.1);
+    
+}
+
+.card:hover::before{
+    filter: brightness(.5);
+    top: -100%;
+    left: 200%;
+}
+
+.bg{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.Info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Info .venue, .Info .duration, .Info .date {
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-weight: 700;
+}

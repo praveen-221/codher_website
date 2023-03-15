@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Montez&family=Montserrat:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montez', cursive;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.App {
+  height: 100vh;
+  background-image: url("/public/assets/CodeHerBG.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  overflow: scroll;
+  overflow-x: hidden;
+  scroll-snap-type: y mandatory;
+  /* scroll-padding-top: 0px; */
+  opacity: 0.9;
+}
