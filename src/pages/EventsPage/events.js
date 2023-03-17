@@ -43,7 +43,7 @@ function Events() {
 			<div className='cardContainer'>
 				<Card 
                     title={"Codex"}
-                    desc={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed deiusmod tempor incididunt ut labore et dolore magna aliqua. Eget sit amet tellus cras"}
+                    desc={"Cool! Shivaji yum naandhan, MGR um naan dhan. Tamizh padangal la inga maru vechukittu, meesaya murukki kittu, lungi kattikittu, nambiyar uh, Eh Kabalii apdinu sonna odane, kuninju sollunga yejaman nu vandhu nippane, andha maari Kabali nu nenachiya da? Kabali da!"}
                     venue = {"online"}
                     time = {"5pm"}
                     date = {"19/03/23"}
@@ -51,7 +51,7 @@ function Events() {
                 />
                 <Card 
                     title={"Codex"}
-                    desc={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed deiusmod tempor incididunt ut labore et dolore magna aliqua. Eget sit amet tellus cras"}
+                    desc={"Chumma adhirudhula! BOSS (Bachelor of Social Service).Naan anbukku kattupaduven; aanavatha kattupaduthuven. Adangama irukanum nu nenaikaravangala adakkuven"}
                     venue = {"online"}
                     time = {"5pm"}
                     date = {"19/03/23"}
@@ -59,7 +59,7 @@ function Events() {
                 />
                 <Card 
                     title={"Codex"}
-                    desc={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed deiusmod tempor incididunt ut labore et dolore magna aliqua. Eget sit amet tellus cras"}
+                    desc={"Kozhandha, Ennodaya anju mugatha paathen nu sonnela, enakku innoru mugam iruku aarumugam. Indha Padaiyappan oda innoru mugam. Adha nee paakaadha; thaanga maata. Nondhududuva Enna pathi unakku theiryadhu. En vazhi thani vazhi. Seendaadha"}
                     venue = {"online"}
                     time = {"5pm"}
                     date = {"19/03/23"}

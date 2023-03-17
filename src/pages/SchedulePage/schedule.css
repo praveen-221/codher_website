@@ -1,5 +1,6 @@
 .timeline_container {
-    height: 100%;
+  padding-top: 5.5rem;
+  height: 100%;
 }
 
 .title span {

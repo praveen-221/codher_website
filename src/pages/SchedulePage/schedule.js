@@ -3,7 +3,7 @@ import "./schedule.css"
 
 function Schedule() {
   return (
-		<div className="timeline_container" id='timeline'>
+		<div className="timeline_container" id='schedule'>
 			<div className="title">
 				<span>TIMELINE</span>
 			</div>

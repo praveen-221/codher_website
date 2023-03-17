@@ -15,7 +15,7 @@ function Sponsors() {
           </a>
         </div>
         <div className='other_sponsors'>
-          <div>
+          <div style={{ paddingBottom: "2rem"}}>
             <h2 style={{color: "white", paddingBottom: "1rem"}}>Associate Sponsor</h2>
             <a href='https://motorq.com/' target={"blank"} style={{textDecoration: "none"}}>
               <img src="assets/motoq_logo.jpg" alt="motorq" style={{borderRadius: "10px"}}></img>

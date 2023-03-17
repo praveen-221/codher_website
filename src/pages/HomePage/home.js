@@ -1,8 +1,26 @@
-import React from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import NavBar from '../Navbar/navbar';
 import "./home.css";
 
 function Home() {
+	const [width, setWidth] = useState(window.innerWidth);
+	const [animationDelay, setAnimationDelay] = useState();
+
+	const handleAnimationDelay = useCallback(() => {
+		setWidth(window.innerWidth);
+		if (width <= 1024) {
+			setAnimationDelay(700);
+		} else {
+			setAnimationDelay(2000);
+		}
+	}, [width]);
+
+	useEffect(() => {
+		handleAnimationDelay();
+	}, [handleAnimationDelay]);
+
+	window.addEventListener("load", handleAnimationDelay);
+	window.addEventListener("resize", handleAnimationDelay);
   return (
 	<>
 		{/* <NavBar /> */}
@@ -40,6 +58,9 @@ function Home() {
 			<div className="column2">
 				<img src="/assets/Codehergirl.png" alt="codeherimg"></img>
 			</div>
+		</div>
+		<div className='mobile-arrow'>
+			<a href='#events' style={{textDecoration: "none"}}><img src="/assets/downarrow.png" alt="arrImg"></img></a>
 		</div>
 	</>
 	);

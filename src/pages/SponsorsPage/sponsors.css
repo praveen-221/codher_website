@@ -1,5 +1,5 @@
 .sponsors_container {
-    /* margin: 2rem; */
+  padding-top: 6rem;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -61,6 +61,8 @@
     justify-content: center;
     align-items: center;
     letter-spacing: 1.5;
+    text-decoration: underline;
+    color: #ccc;
 }
 
 .other_sponsors {
@@ -71,4 +73,16 @@
     justify-content:space-around;
     align-items: center;
     letter-spacing: 1.5;
+    text-decoration: underline;
+    color: #ccc;
+}
+
+@media (max-width: 800px) {
+  .other_sponsors {
+    flex-direction: column;
+  }
+  .sponsors {
+    height: 70%;
+    width: 90%
+  }
 }
