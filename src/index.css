@@ -13,6 +13,6 @@ code {
 }
 
 * {
-  scrollbar-color: rgb(154, 48, 253) transparent;
+  scrollbar-color: rgb(154, 48, 253) #672bb8;
   scrollbar-width: thin;
 }

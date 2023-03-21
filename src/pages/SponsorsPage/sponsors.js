@@ -17,12 +17,12 @@ function Sponsors() {
         <div className='other_sponsors'>
           <div style={{ paddingBottom: "2rem"}}>
             <h2 style={{color: "white", paddingBottom: "1rem"}}>Associate Sponsor</h2>
-            <a href='https://motorq.com/' target={"blank"} style={{textDecoration: "none"}}>
+            <a href='https://github.com/' target={"blank"} style={{textDecoration: "none"}}>
               <img src="assets/motoq_logo.jpg" alt="motorq" style={{borderRadius: "10px"}}></img>
             </a>
           </div>
           <div>
-            <h2 style={{color: "white", paddingBottom: "1rem"}}>Hiring Partner</h2>
+            <h2 style={{color: "white", paddingBottom: "1rem"}}>Intern Partner</h2>
             <a href='https://motorq.com/' target={"blank"} style={{textDecoration: "none"}}>
               <img src="assets/motoq_logo.jpg" alt="motorq" style={{borderRadius: "10px"}}></img>
             </a>

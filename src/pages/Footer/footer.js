@@ -27,22 +27,22 @@ function Footer() {
 						<div className="footer-col">
 							<h4>Get In Touch</h4>
 							<div className="social-links">
-								<a href="#">
+								<a href="https://www.facebook.com/acm.ceg/" target="blank">
 									<i className="fab fa-facebook-f"></i>
 								</a>
-								<a href="#">
+								<a href="https://twitter.com/AcmCeg" target="blank">
 									<i className="fab fa-twitter"></i>
 								</a>
-								<a href="#">
+								<a href="https://www.instagram.com/acm_ceg" target="blank">
 									<i className="fab fa-instagram"></i>
 								</a>
-								<a href="#">
+								<a href="https://www.linkedin.com/company/acm-student-chapter-of-ceg/mycompany/" target="blank">
 									<i className="fab fa-linkedin-in"></i>
 								</a>
 							</div>
 						</div>
 					</div>
-					<a href="#home" class="to-top"></a>
+					<a href="#home" className="to-top"></a>
 				</div>
 				<div>
 					<hr className="dashed"></hr>

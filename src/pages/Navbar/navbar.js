@@ -49,7 +49,7 @@ function NavBar() {
 								onClick={() => change("Events")}
 							>
 								<span className={`${active === "Events" ? "linkactive" : ""}`}>
-									Events
+									Pre Events
 								</span>
 							</a>
 							<a
@@ -88,7 +88,7 @@ function NavBar() {
 										<span>Home</span>
 									</a>
 									<a href="#events" onClick={closeMobileMenu}>
-										<span>Events</span>
+										<span>Pre Events</span>
 									</a>
 									<a href="#sponsors" onClick={closeMobileMenu}>
 										<span>Sponsors</span>

@@ -1,6 +1,5 @@
 .timeline_container {
   padding-top: 5.5rem;
-  height: 100%;
 }
 
 .title span {
@@ -14,6 +13,11 @@
     font-weight: 700;
     animation: reveal 3000ms ease-in-out forwards 200ms,
                glow 2500ms linear infinite 2000ms;
+}
+
+.timeline img {
+  width: 100%;
+  height: 90%;
 }
 
 @keyframes reveal {

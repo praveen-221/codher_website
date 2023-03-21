@@ -17,52 +17,58 @@ function Home() {
 
 	useEffect(() => {
 		handleAnimationDelay();
-	}, [handleAnimationDelay]);
+	}, [animationDelay]);
 
 	window.addEventListener("load", handleAnimationDelay);
 	window.addEventListener("resize", handleAnimationDelay);
   return (
-	<>
-		{/* <NavBar /> */}
-		<div className="flexcontainer" id='home'>
-			<div className="column1">
-				<div className='title'>
-					<span>CODHER</span>
-				</div>
-				<div className="content">
-					Lorem idivsum dolor sit amet, consectetur adipiscing elit, sed do
-					eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget sit
-					amet tellus cras adipiscing enim. Eleifend donec pretium vulputate
-					sapien nec sagittis aliquam.
-				</div>
-				<div>
-					<span>
-						<button className="btn">
-							<span>Register</span>
-						</button>
-					</span>
+		<>
+			{/* <NavBar /> */}
+			<div className="flexcontainer" id="home">
+				<div className="column1">
+					<div className="title">
+						<span>CODHER</span>
+					</div>
+					<div className="content">
+						An all day hackathon to channel all that inner coddess energy to
+						give shape to your amazing ideas. Team up with fellow queen bees for
+						an awesome hackathon experience, complete with mentors who'll
+						provide u with all the guidance u need. Hack from the comfort of
+						your homes/hostel rooms as it's going to be online this time. Join
+						us on April 7 and 8 to hack and slay, one line of code at a time.
+					</div>
+					<div className="date">
+						<span>April 7 & 8</span>
+					</div>
+					<div>
+						<span>
+							<button className="btn">
+								<span>Register</span>
+							</button>
+						</span>
 
-					<a href='#events' style={{textDecoration: "none"}}>
-					<span className="sec_btn">
-						Pre events
-                        &nbsp;&nbsp;
-						<img
-							src="/assets/downarrow.png"
-							alt="downarrow"
-							className="arrow"
-						/>
-					</span>
-					</a>
+						<a href="#events" style={{ textDecoration: "none" }}>
+							<span className="sec_btn">
+								Pre events &nbsp;&nbsp;
+								<img
+									src="/assets/downarrow.png"
+									alt="downarrow"
+									className="arrow"
+								/>
+							</span>
+						</a>
+					</div>
+				</div>
+				<div className="column2">
+					<img src="/assets/Codehergirl.png" alt="codeherimg"></img>
 				</div>
 			</div>
-			<div className="column2">
-				<img src="/assets/Codehergirl.png" alt="codeherimg"></img>
+			<div className="mobile-arrow">
+				<a href="#events" style={{ textDecoration: "none" }}>
+					<img src="/assets/downarrow.png" alt="arrImg"></img>
+				</a>
 			</div>
-		</div>
-		<div className='mobile-arrow'>
-			<a href='#events' style={{textDecoration: "none"}}><img src="/assets/downarrow.png" alt="arrImg"></img></a>
-		</div>
-	</>
+		</>
 	);
 }
 
