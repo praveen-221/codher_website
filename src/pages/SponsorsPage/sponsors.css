@@ -1,9 +1,9 @@
 .sponsors_container {
   padding-top: 6rem;
-    display: flex;
-    flex-direction: column;
-    justify-items: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
 }
 
 .title span {
@@ -61,6 +61,7 @@
     letter-spacing: 1.5;
     text-decoration: underline;
     color: #ccc;
+    cursor: pointer;
 }
 
 .other_sponsors {
@@ -73,6 +74,7 @@
     letter-spacing: 1.5;
     text-decoration: underline;
     color: #ccc;
+    cursor: pointer;
 }
 
 @media (max-width: 800px) {

@@ -33,9 +33,9 @@ function Home() {
 						An all day hackathon to channel all that inner coddess energy to
 						give shape to your amazing ideas. Team up with fellow queen bees for
 						an awesome hackathon experience, complete with mentors who'll
-						provide u with all the guidance u need. Hack from the comfort of
-						your homes/hostel rooms as it's going to be online this time. Join
-						us on April 7 and 8 to hack and slay, one line of code at a time.
+						provide you with all the guidance you need. Hack from the comfort of
+						your homes/hostel rooms as it's going to be <b>online</b> this time.
+						<br></br><br></br>Join us to hack and slay, one line of code at a time.
 					</div>
 					<div className="date">
 						<span>April 7 & 8</span>

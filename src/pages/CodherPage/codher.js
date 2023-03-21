@@ -1,10 +1,71 @@
-import React from 'react';
+import React, { useEffect, useState, useCallback } from 'react';
 import "./codher.css"
 
 function Codher() {
+  const [width, setWidth] = useState(window.innerWidth);
+	const [view, setView] = useState(false);
+
+	const changeView = useCallback(() => {
+		setWidth(window.innerWidth);
+		if(width <= 450) {
+			setView(true);
+		} else {
+			setView(false);
+		}
+	});
+
+	useEffect(() => {
+		changeView();
+	}, []);
+	
+	window.addEventListener("resize", changeView);
+  useEffect(() => {
+    const script = document.createElement("script");
+
+    script.src = "https://cdn.logwork.com/widget/countdown.js";
+    document.body.appendChild(script);
+    return () => {
+      document.body.removeChild(script);
+    }
+  }, []);
+
   return (
-    <div>Codher</div>
-  )
+		<div className="container">
+			<div>
+				{view ? (
+					<a
+						href="https://logwork.com/countdown-yf8i"
+						class="countdown-timer"
+						data-style="flip2"
+						data-width="530"
+						data-timezone="Asia/Kolkata"
+						data-textcolor="#cccccc"
+						data-date="2023-04-07 19:00"
+						data-background="#ab43f0"
+						data-digitscolor="#ffffff"
+						data-unitscolor="#cccccc"
+					>
+						TIME IS TICKING
+					</a>
+				) : (
+					<a
+						href="https://logwork.com/countdown-yfyz"
+						class="countdown-timer"
+						data-style="flip2"
+						data-width="650"
+						data-timezone="Asia/Kolkata"
+						data-textcolor="#cccccc"
+						data-date="2023-04-07 19:00"
+						data-background="#ab43f0"
+						data-digitscolor="#ffffff"
+						data-unitscolor="#cccccc"
+					>
+						TIME IS TICKING
+					</a>
+				)}
+			</div>
+		</div>
+	);
 }
 
 export default Codher;
