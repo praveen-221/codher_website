@@ -1,6 +1,6 @@
 .container {
     padding-top: 5.5rem;
-    /* height: 100%; */
+    /* height: 200vh; */
     display: flex;
     flex-direction:column;
     align-items: center;
@@ -65,7 +65,20 @@
   .prizecard-body {
     padding: 1.2em;
   }
+  .tracks{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+    /* width: 100%; */
+    height:max-content;
+  }
   @media (max-width: 1200px) {
+    .timer{
+        width:fit-content;
+        height: fit-content;
+    }
     .prizecard {
         flex-direction: column;
     }
@@ -76,6 +89,14 @@
 }
 
 @media (max-width: 500px) {
+    .timer{
+        width:80%;
+        height: 80%;
+    }
+    .timer a{
+        width: auto;
+        height: auto;
+    }
     .prizecard {
         width: 90%;
         height: auto;

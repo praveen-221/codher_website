@@ -40,6 +40,16 @@ function Codher() {
         </div>
 		);
 	}
+	const TrackCard = ({ title, desc }) => {
+		return (
+			<div className="prizecard">
+        	<div className="prizecard-body">
+            	<h2>{title}</h2>
+            	<p>{desc}</p>
+          	</div>
+        </div>
+		);
+	}
   return (
 		<div className="container">
 			<div className='timer'>
@@ -79,6 +89,12 @@ function Codher() {
 			<PrizeCard img="assets/secondplace.jfif" title="Second Place" cash="9,000" desc="Intern referral to Motorq with a stipend of 1.5 lakhs per month. Goodies from Github." />
 			<PrizeCard className="firstplace" img="assets/firstplace.jfif" title="First Place" cash="12,000" desc="Intern referral to Motorq with a stipend of 1.5 lakhs per month. Goodies from Github." />
 			<PrizeCard img="assets/thirdplace.jfif" title="Third Place" cash="6,000" desc="Intern referral to Motorq with a stipend of 1.5 lakhs per month. Goodies from Github." />
+			</div>
+			<div className="tracks">
+			<TrackCard title="Best innovative idea" desc="Everything starts with an idea and we are ready to honor the most innovative idea in codher with a special track prize." />
+			<TrackCard title="Best freshman" desc="Sometimes talent needs a little encouragement and appreciation and we are ready to offer it through a track prize reserved for the best freshman team." />
+			<TrackCard title="Best sophomore" desc=" Second years, get ready to showcase your exceptional talent and innovation because we have reserved a track prize for the best sophomore team." />
+			<TrackCard title="Best UI" desc="A great Design is a beautiful amalgamation of  science and art. And it should be appreciated as all art should be. That's why we are ready with a special track prize for the team coming up with the best UI" />
 			</div>
 		</div>
 	);
