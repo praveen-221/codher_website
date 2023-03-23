@@ -18,13 +18,13 @@ function Sponsors() {
           <div style={{ paddingBottom: "1rem"}}>
             <h2 style={{color: "white", paddingBottom: "1rem"}}>Associate Sponsor</h2>
             <a href='https://github.com/' target={"blank"} style={{textDecoration: "none"}}>
-              <img src="assets/Github_Logo_White.png" alt="motorq" style={{width: "250px",height:"100px",borderRadius: "10px"}}></img>
+              <img src="assets/Github_Logo_White.png" alt="Github" style={{width: "250px",height:"100px",borderRadius: "10px"}}></img>
             </a>
           </div>
           <div style={{marginBottom:"20px"}}>
             <h2 style={{color: "white", paddingBottom: "1rem"}}>Intern Partner</h2>
             <a href='https://redink.app/' target={"blank"} style={{textDecoration: "none"}}>
-              <img src="assets/RedInkLogo.jpeg" alt="motorq" style={{width: "300px",height:"100px",borderRadius: "10px"}}></img>
+              <img src="assets/RedInkLogo.jpeg" alt="Redink" style={{width: "300px",height:"100px",borderRadius: "10px"}}></img>
             </a>
           </div>
         </div>

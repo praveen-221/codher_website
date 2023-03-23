@@ -90,19 +90,39 @@ function Codher() {
 				<span>PRIZES</span>
 			</div>
 			<div className="prizes">
-				<PrizeCard
-					img="assets/secondplace.jfif"
-					title="Second Place"
-					cash="₹ 9,000"
-					desc="Intern referral to Motorq with a stipend of 1.5 lakhs per month. Goodies from Github."
-				/>
-				<PrizeCard
-					className="firstplace"
-					img="assets/firstplace.jfif"
-					title="First Place"
-					cash="₹ 12,000"
-					desc="Intern referral to Motorq with a stipend of 1.5 lakhs per month. Goodies from Github."
-				/>
+				{view ? (
+					<>
+						<PrizeCard
+							className="firstplace"
+							img="assets/firstplace.jfif"
+							title="First Place"
+							cash="₹ 12,000"
+							desc="Intern referral to Motorq with a stipend of 1.5 lakhs per month. Goodies from Github."
+						/>
+						<PrizeCard
+							img="assets/secondplace.jfif"
+							title="Second Place"
+							cash="₹ 9,000"
+							desc="Intern referral to Motorq with a stipend of 1.5 lakhs per month. Goodies from Github."
+						/>
+					</>
+				) : (
+					<>
+						<PrizeCard
+							img="assets/secondplace.jfif"
+							title="Second Place"
+							cash="₹ 9,000"
+							desc="Intern referral to Motorq with a stipend of 1.5 lakhs per month. Goodies from Github."
+						/>
+						<PrizeCard
+							className="firstplace"
+							img="assets/firstplace.jfif"
+							title="First Place"
+							cash="₹ 12,000"
+							desc="Intern referral to Motorq with a stipend of 1.5 lakhs per month. Goodies from Github."
+						/>
+					</>
+				)}
 				<PrizeCard
 					img="assets/thirdplace.jfif"
 					title="Third Place"
