@@ -28,7 +28,18 @@ function Codher() {
       document.body.removeChild(script);
     }
   }, []);
-
+  	const PrizeCard = ({ title, cash, desc, img }) => {
+		return (
+			<div className="prizecard">
+          <img src={img} />
+          <div className="prizecard-body">
+            <h2>{cash}</h2>
+			<h3>{title}</h3>
+            <p>{desc}</p>
+          </div>
+        </div>
+		);
+	}
   return (
 		<div className="container">
 			<div className='timer'>
@@ -63,6 +74,11 @@ function Codher() {
 						CODHER Starts In
 					</a>
 				)}
+			</div>
+			<div className="prizes">
+			<PrizeCard img="assets/secondplace.jfif" title="Second Place" cash="9,000" desc="Intern referral to Motorq with a stipend of 1.5 lakhs per month. Goodies from Github." />
+			<PrizeCard className="firstplace" img="assets/firstplace.jfif" title="First Place" cash="12,000" desc="Intern referral to Motorq with a stipend of 1.5 lakhs per month. Goodies from Github." />
+			<PrizeCard img="assets/thirdplace.jfif" title="Third Place" cash="6,000" desc="Intern referral to Motorq with a stipend of 1.5 lakhs per month. Goodies from Github." />
 			</div>
 		</div>
 	);
