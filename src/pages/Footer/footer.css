@@ -1,10 +1,10 @@
 .sticky {
-    position: -webkit-sticky;
+    /* position: -webkit-sticky; */
     bottom: 0;
 }
-.container{
+.footer .container{
 	width: 100%;
-	margin:auto;
+	padding-top: 30px;
     bottom: 0;
 }
 .row{
@@ -20,28 +20,27 @@ ul{
 	background-color: blueviolet;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
-    position: static;
-    padding: 2rem;    
+    position: static;    
     left: 0;
     bottom: 0;
     width: 100%;
     overflow: hidden;
 }
 .footer-col{
-   width: 25%;
-   padding: 0 10px;
+   width: 30%;
+   padding: 0 5px;
 }
 .footer-col h4{
 	font-size: 18px;
 	color: #ffffff;
-	margin-bottom: 30px;
+	margin-bottom: 20px;
 	position: relative;
 }
 .footer-col h5{
 	font-size: 14px;
 	color: #ffffff;
 	/* text-transform: capitalize; */
-	margin-bottom: 30px;
+	margin-bottom: 20px;
 	font-weight: 500;
 	position: relative;
 }
@@ -56,7 +55,7 @@ ul{
 	width: 50px;
 } */
 .footer-col ul li:not(:last-child){
-	margin-bottom: 10px;
+	margin-bottom: 15px;
 }
 .footer-col ul li a{
 	font-size: 16px;
@@ -103,10 +102,12 @@ hr.dashed {
     justify-content: center;
     align-items: center;
     padding-top: 20px;
+	padding-bottom: 10px;
 }
 
 .to-top {
 	color: white;
+	margin-top: 15px;
 	padding-top: 1.8em;
 	display: inline-block;
 	/* or block */
@@ -124,7 +125,7 @@ hr.dashed {
 	left: 50%;
 	margin-left: -.7em;
 	border: solid .13em white;
-	border-radius: 10em;
+	border-radius: 5em;
 	width: 1.4em;
 	height: 1.4em;
 	line-height: 1.3em;
@@ -145,7 +146,7 @@ hr.dashed {
 @media(max-width: 767px) {
     .footer-col {
         width: 50%;
-        margin-bottom: 30px;
+        margin-bottom: 10px;
     }
 }
 
@@ -168,7 +169,7 @@ hr.dashed {
 		padding: 1rem 0;
 	}
 	.footer-col h4 {
-		margin-bottom: 10px;
+		margin-bottom: 20px;
 	}
     .row {
         flex-direction: column;
@@ -180,6 +181,9 @@ hr.dashed {
     .footer-col h5 {
         font-size: small;
     }
+	.to-top {
+		margin-top: 10px;
+	}
 }
 
 @media (max-width: 500px) {
@@ -197,6 +201,7 @@ hr.dashed {
 		padding-left: 4px;
 	}
 	.to-top {
+		margin-top: 5px;
 		animation: arrowDown infinite 1.5s;
 	}
 }

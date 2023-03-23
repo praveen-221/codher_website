@@ -28,8 +28,8 @@ function Schedule() {
 			</div>
 			<div className="timeline">
 				{view 
-				? <img src='' alt='mobile-timeline'></img>
-				: <img src="assets/timeline.png" alt="timeline"></img>}
+				? <img src='assets/mobile-timeline.png' alt='mobile-timeline'></img>
+				: <img src="assets/tinywow_desktop-timeline.png" alt="timeline"></img>}
 			</div>
 		</div>
 	);
