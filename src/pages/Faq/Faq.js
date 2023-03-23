@@ -33,9 +33,9 @@ function Faq() {
                                 <div className="faq-accordion-title">
                                     <label for="tgg-title-1">
                                     <h2>How many team members can I invite?</h2>
-                                    <span className="arrow-icon">
+                                    {/* <span className="arrow-icon">
                                         <img src="https://raw.githubusercontent.com/Romerof/FAQ-accordion-card/main/images/icon-arrow-down.svg"/>
-                                    </span>
+                                    </span> */}
                                     </label>
                                 </div>
 
@@ -58,9 +58,9 @@ function Faq() {
                                     <h2>
                                         What is the maximum file upload size?
                                     </h2>
-                                    <span className="arrow-icon">
+                                    {/* <span className="arrow-icon">
                                         <img src="https://raw.githubusercontent.com/Romerof/FAQ-accordion-card/main/images/icon-arrow-down.svg"/>
-                                    </span>
+                                    </span> */}
                                     </label>
                                 </div>
 
@@ -79,9 +79,9 @@ function Faq() {
                                     <h2>
                                         How do I reset my password?
                                     </h2>
-                                    <span className="arrow-icon">
+                                    {/* <span className="arrow-icon">
                                         <img src="https://raw.githubusercontent.com/Romerof/FAQ-accordion-card/main/images/icon-arrow-down.svg"/>
-                                    </span>
+                                    </span> */}
                                     </label>
                                 </div>
 
@@ -101,9 +101,9 @@ function Faq() {
                                     <h2>
                                         Can I cancel my subscription?
                                     </h2>
-                                    <span className="arrow-icon">
+                                    {/* <span className="arrow-icon">
                                         <img src="https://raw.githubusercontent.com/Romerof/FAQ-accordion-card/main/images/icon-arrow-down.svg"/>
-                                    </span>
+                                    </span> */}
                                     </label>
                                 </div>
 
@@ -123,9 +123,9 @@ function Faq() {
                                     <h2>
                                         Do you provide additional support?
                                     </h2>
-                                    <span className="arrow-icon">
+                                    {/* <span className="arrow-icon">
                                         <img src="https://raw.githubusercontent.com/Romerof/FAQ-accordion-card/main/images/icon-arrow-down.svg"/>
-                                    </span>
+                                    </span> */}
                                     </label>
                                 </div>
 

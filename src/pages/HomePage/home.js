@@ -27,7 +27,7 @@ function Home() {
 			<div className="flexcontainer" id="home">
 				<div className="column1">
 					<div className="title">
-						<img src="assets/codher_logo.png" alt="CODHER"></img>
+						<a href='/' style={{textDecoration: "none"}}><img src="assets/codher_logo.png" alt="CODHER"></img></a>
 						{/* <span>CODHER</span> */}
 					</div>
 					<div className="content">

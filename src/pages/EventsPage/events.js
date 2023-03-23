@@ -71,7 +71,7 @@ function Events() {
 				<Card 
 					val={"completed"}
                     title={"Codex"}
-                    desc={"CodeX, a competitive programming contest for Everyone. The Marvel universe calls all tech-savvies to join our coding contest and show off your programming prowess. Come forward to take part in this contest to celebrate MARVELous ladies out there, and experience the best of all realities."}
+                    desc={"CodeX, a competitive programming contest for Everyone. The Marvel universe calls all tech-savvies to join our coding contest and show off your programming prowess. Come forward and experience the best of all realities."}
                     venue = {"online"}
                     time = {"5pm"}
                     date = {"March 19"}
@@ -96,7 +96,7 @@ function Events() {
 					r1 = {"A quiz on technological products and its significance."}
 					r2 = {"Classical Business Pitching round before the judges."}
                     date = {"March 25 & 26"}
-                    link = {""}
+                    link = {"https://unstop.com/p/shark-tank-ceg-guindy-650412"}
                 />                
 			</div>
 		</div>

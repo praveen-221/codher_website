@@ -83,7 +83,15 @@ h2 {
 
 .faq-card {
   margin: 15px;
-  background-color: #fff;
+  
+  background: linear-gradient(
+    to bottom right,
+    rgba(255, 255, 255, 0.4),
+    rgba(233, 233, 233, 0.1)
+  );
+  /* backdrop-filter: blur(20px); */
+  border-radius: 10px;
+  border-bottom: 1px solid #ccc;
   border-radius: 20px;
 
   max-width: 710px;
@@ -123,7 +131,7 @@ h2 {
 .faq-content h1 {
   font-size: 32px;
   text-align: center;
-  color: var(--primary-dark-color);
+  color: #FFFFFF;
 }
 
 .faq-accordion {
@@ -150,7 +158,7 @@ input.tgg-title {
 .faq-accordion-title h2{
   font-size: 15px /*var(--font-size)*/;
   font-weight: 400;
-  color: var(--neutral-dark-color);
+  color: #fff;
 }
 
 .faq-accordion-title span{
@@ -158,12 +166,16 @@ input.tgg-title {
   transition: transform .4s ease-in-out;
 }
 
+.arrow-icon {
+  color: #fff;
+}
+
 
 /* FAQ card: main content */
 /*================================================*/
 
 .faq-accordion-content {
-  color: var(--neutral-soft-color);
+  color: #e9e9e9;
   overflow:hidden;
   max-height: 0;
   transition: max-height .4s ease-in-out;
@@ -176,7 +188,7 @@ input.tgg-title {
 /* main title, accordion title effects */
 
 .faq-accordion-title:hover h2{
-  color: var(--primary-soft-color)
+  color:lavender;
 }
 
 /* onclick "" */
