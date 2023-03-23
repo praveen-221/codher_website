@@ -56,7 +56,7 @@ function Codher() {
 				{view ? (
 					<a
 						href="https://logwork.com/countdown-yf59"
-						class="countdown-timer"
+						className="countdown-timer"
 						data-style="flip2"
 						data-width="451"
 						data-timezone="Asia/Kolkata"
@@ -71,7 +71,7 @@ function Codher() {
 				) : (
 					<a
 						href="https://logwork.com/countdown-yg25"
-						class="countdown-timer"
+						className="countdown-timer"
 						data-style="flip2"
 						data-width="649"
 						data-timezone="Asia/Kolkata"

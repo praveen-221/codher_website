@@ -61,7 +61,7 @@ function Home() {
 					</div>
 				</div>
 				<div className="column2">
-					<img src="assets/Codehergirl.png" alt="codeherimg"></img>
+					<img src="assets/Codehergirl.png" alt="codher"></img>
 				</div>
 			</div>
 			<div className="mobile-arrow">
