@@ -62,6 +62,15 @@
     transition: .5s all;
 }
 
+.card #completed {
+    cursor:not-allowed;
+}
+
+.card #completed:hover {
+    color: white;
+    background: #7B04F2;
+}
+
 .main{
     display: flex;
     flex-direction: column;
