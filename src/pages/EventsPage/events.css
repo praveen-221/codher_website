@@ -37,7 +37,9 @@
     align-items: center;
     justify-content: center;
 }
-
+.btn .events{
+    padding: 0;
+}
 .card{
     user-select:none;
     width: 400px;
@@ -136,7 +138,6 @@
     color: #ffffff;
     font-weight: bolder;
 }
-
 @media (max-width: 1200px) {
     .cardContainer {
         flex-direction: column;

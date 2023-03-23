@@ -102,7 +102,9 @@
     background: white;
     box-shadow:none;
 }
-
+.title img {
+    width: 300px;
+}
 .arrow{
     display: inline;
     height: 15px;

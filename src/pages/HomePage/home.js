@@ -27,7 +27,8 @@ function Home() {
 			<div className="flexcontainer" id="home">
 				<div className="column1">
 					<div className="title">
-						<span>CODHER</span>
+						<img src="assets/codher_logo.png" alt="CODHER"></img>
+						{/* <span>CODHER</span> */}
 					</div>
 					<div className="content">
 						An all day hackathon to channel all that inner coddess energy to
@@ -51,7 +52,7 @@ function Home() {
 							<span className="sec_btn">
 								Pre events &nbsp;&nbsp;
 								<img
-									src="/assets/downarrow.png"
+									src="assets/downarrow.png"
 									alt="downarrow"
 									className="arrow"
 								/>
@@ -60,12 +61,12 @@ function Home() {
 					</div>
 				</div>
 				<div className="column2">
-					<img src="/assets/Codehergirl.png" alt="codeherimg"></img>
+					<img src="assets/Codehergirl.png" alt="codeherimg"></img>
 				</div>
 			</div>
 			<div className="mobile-arrow">
 				<a href="#events" style={{ textDecoration: "none" }}>
-					<img src="/assets/downarrow.png" alt="arrImg"></img>
+					<img src="assets/downarrow.png" alt="arrImg"></img>
 				</a>
 			</div>
 		</>

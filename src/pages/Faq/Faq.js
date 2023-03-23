@@ -142,11 +142,6 @@ function Faq() {
                 </div> 
 
             </div> 
-
-<footer class="attribution">
-  Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-  Coded by <a href="https://www.frontendmentor.io/profile/Romerof/bookmarks">Javier Romero</a> 🔥. *movile version* See full <a href="https://github.com/Romerof/FAQ-accordion-card" target="_blank">Gitbhub</a>
-</footer>
         </div>
     )
 }
