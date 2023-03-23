@@ -12,9 +12,24 @@ code {
     monospace;
 }
 
-* {
-  -webkit-scrollbar-color: rgb(154, 48, 253) #672bb8;
-  -webkit-scrollbar-width: thin;
-  scrollbar-color: rgb(154, 48, 253) #672bb8;
-  scrollbar-width: thin;
-}
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #9a30fd #f5f5f5;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #ab50ff;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #9a30fd;
+    border-radius: 20px;
+    border: 3px none #ffffff;
+  }
