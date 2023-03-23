@@ -31,7 +31,7 @@ function Codher() {
 
   return (
 		<div className="container">
-			<div>
+			<div className='timer'>
 				{view ? (
 					<a
 						href="https://logwork.com/countdown-yf59"
