@@ -53,6 +53,7 @@
 }
 
 .titleSponsor {
+    cursor:auto;
     margin: 1.5rem;
     display: flex;
     flex-direction: column;
@@ -61,10 +62,10 @@
     letter-spacing: 1.5;
     text-decoration: underline;
     color: #ccc;
-    cursor: pointer;
 }
 
 .other_sponsors {
+    cursor:auto;
     width: 100%;
     margin: 1.5rem;
     display: flex;
@@ -74,7 +75,6 @@
     letter-spacing: 1.5;
     text-decoration: underline;
     color: #ccc;
-    cursor: pointer;
 }
 
 @media (max-width: 800px) {

@@ -27,7 +27,8 @@ function Home() {
 			<div className="flexcontainer" id="home">
 				<div className="column1">
 					<div className="title">
-						<span>CODHER</span>
+						<img src="assets/codher_logo.png" alt="CODHER"></img>
+						{/* <span>CODHER</span> */}
 					</div>
 					<div className="content">
 						An all day hackathon to channel all that inner coddess energy to

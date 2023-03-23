@@ -33,8 +33,8 @@ function NavBar() {
 				<div className="navigation">
 					<nav>
 						<div className="logo">
-							<a href="/" className="logo_link">
-								<img src="assets/codher_logo.png" alt="CODHER"></img>
+							<a href="https://auceg.acm.org" className="logo_link">
+								<img src="assets/ACMLogo.png" alt="CODHER"></img>
 							</a>
 						</div>
 						<div className="navlinks">
