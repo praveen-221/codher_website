@@ -8,7 +8,7 @@ import Events from './pages/EventsPage/events';
 import Footer from './pages/Footer/footer';
 import Sponsors from './pages/SponsorsPage/sponsors';
 import Schedule from './pages/SchedulePage/schedule';
-
+import Faq from './pages/Faq/Faq';
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -32,6 +32,7 @@ function App() {
 					<Events />
 					<Sponsors />
 					<Schedule />
+					<Faq />
 					<Footer />
 				</div>
 			)}
