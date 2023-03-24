@@ -4,7 +4,6 @@
     font-size: 15px;
     color: var(--neutral-dark-color);
   
-    /* background: var(--bg-gradient); */
     background-size: cover;
   }
   
@@ -29,10 +28,7 @@
 }
 
 
-/* html {
-  box-sizing: border-box;
-}
-* {box-sizing: inherit;} */
+
 
 .attribution { 
   font-size: 11px; text-align: center; 
@@ -47,20 +43,17 @@
 
 .attribution a { color: hsl(228, 45%, 44%); }
 
-/* global */
-/*================================================*/
 
 
 
 
 .card-wrapper {
   min-height: 100vh;
-  padding-bottom: 50px; /* footer fixed */
+  padding-bottom: 50px;
   padding-top: 25px;
 }
 
 p {
-  /* margin: 0 0 12px; */
   line-height: 1.5;
 }
 
@@ -69,8 +62,6 @@ h2 {
 }
 
 
-/* generics */
-/*================================================*/
 
 .content-cc{
   display: flex;
@@ -78,8 +69,6 @@ h2 {
   align-items: center;
 }
 
-/* FAQ card */
-/*================================================*/
 
 .faq-card {
   margin: 15px;
@@ -90,7 +79,6 @@ h2 {
     rgba(233, 233, 233, 0.1)
   );
   background-color: blueviolet;
-  /* backdrop-filter: blur(20px); */
   border-radius: 10px;
   border-bottom: 1px solid #ccc;
   border-radius: 20px;
@@ -101,8 +89,6 @@ h2 {
   box-shadow: 0px 60px 50px -25px rgba(0, 0, 0, 0.35);
 }
 
-/* FAQ card: imagenes */
-/*================================================*/
 
 
 .faq-ilustrations{
@@ -122,9 +108,6 @@ h2 {
 }
 
 
-/* FAQ card: main */
-/*================================================*/
-
 .faq-content {
   padding: 9px 25px 3rem; 
 }
@@ -141,10 +124,7 @@ h2 {
 }
 
 
-/* FAQ card: main title */
-/*================================================*/
 
-/* checkbox tgg-title*/
 input.tgg-title {
   appearance: unset;
   all:unset;
@@ -158,7 +138,7 @@ input.tgg-title {
 }
 
 .faq-accordion-title h2{
-  font-size: 15px /*var(--font-size)*/;
+  font-size: 15px;
   font-weight: 400;
   text-align: left;
   color: #fff;
@@ -174,8 +154,6 @@ input.tgg-title {
 }
 
 
-/* FAQ card: main content */
-/*================================================*/
 
 .faq-accordion-content {
   color: #e9e9e9;
@@ -189,16 +167,12 @@ input.tgg-title {
   transition: max-height 1s ease-in-out;
 }
 
-/* Effects */
-/*================================================*/
 
-/* main title, accordion title effects */
 
 .faq-accordion-title:hover h2{
   color:lavender;
 }
 
-/* onclick "" */
 .faq-accordion .tgg-title:checked + div>label>h2 {
   font-weight: 700;
 }
@@ -208,7 +182,6 @@ input.tgg-title {
   transform: rotate(180deg);
 }
 
-/* main content, acordion text effect */
 
 .faq-accordion .tgg-title:checked ~ .faq-accordion-content{
   will-change: max-height;

@@ -1,5 +1,4 @@
 .sticky {
-    /* position: -webkit-sticky; */
     bottom: 0;
 }
 .footer .container{
@@ -39,21 +38,10 @@ ul{
 .footer-col h5{
 	font-size: 14px;
 	color: #ffffff;
-	/* text-transform: capitalize; */
 	margin-bottom: 20px;
 	font-weight: 500;
 	position: relative;
 }
-/* .footer-col h4::before{
-	content: '';
-	position: absolute;
-	left:0;
-	bottom: -10px;
-	background-color: #4c0867;
-	height: 2px;
-	box-sizing: border-box;
-	width: 50px;
-} */
 .footer-col ul li:not(:last-child){
 	margin-bottom: 15px;
 }
@@ -110,7 +98,6 @@ hr.dashed {
 	margin-top: 15px;
 	padding-top: 1.8em;
 	display: inline-block;
-	/* or block */
 	position: relative;
 	border-color: white;
 	text-decoration: none;
@@ -142,7 +129,6 @@ hr.dashed {
 	transform: rotate(360deg);
 }
 
-/*responsive*/
 @media(max-width: 767px) {
     .footer-col {
         width: 50%;
@@ -159,9 +145,7 @@ hr.dashed {
         transform: translateY(0);
     }
 
-    /* 30% {
-        transform: translateY(0);
-    } */
+   
 }
 
 @media(max-width: 650px) {

@@ -1,6 +1,5 @@
 .container {
     padding-top: 5.5rem;
-    /* height: 200vh; */
     display: flex;
     flex-direction:column;
     align-items: center;
@@ -14,7 +13,6 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    /* flex-wrap: wrap; */
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
@@ -50,7 +48,6 @@
 .prizecard{
     width: 24em;
     position: relative;
-    /* border-radius: 0.6em; */
     margin: 2.1em;
     overflow: visible;
     background: linear-gradient(
@@ -59,7 +56,6 @@
       rgba(233, 233, 233, 0.1)
     );
     background-color: blueviolet;
-    /* backdrop-filter: blur(20px); */
     border-radius: 10px;
     border-bottom: 2px solid #ccc;
     cursor: pointer;
@@ -88,7 +84,6 @@
     line-height: 1.4;
     font-size: 25px;
     font-weight: 900;
-    /* font-family: 'Montserrat', sans-serif; */
     transition: all ease-in 100ms;
   }
   
@@ -113,7 +108,6 @@
     justify-content: center;
     align-items: center;
     flex-wrap:wrap;
-    /* width: 100%; */
     height:max-content;
   }
   .special-prizes .prizecard-body h4 {
@@ -121,11 +115,6 @@
     color: #eae0e0;
     margin-bottom: 5px;
   }
-  /* .special-prizes .prizecard img {
-    width: 15%;
-    height: 15%;
-    margin-top: 10px;
-  } */
   .special-prizes .prizecard {
     border-bottom: 2px solid rgb(200, 142, 255);
   }
@@ -190,14 +179,7 @@
 
 
 @media (max-width: 500px) {
-    /* .timer{
-        width:80%;
-        height: 80%;
-    }
-    .timer a{
-        width: auto;
-        height: auto;
-    } */
+    
     .prizecard {
         width: 90%;
         height: auto;

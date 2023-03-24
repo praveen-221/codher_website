@@ -75,7 +75,6 @@ function NavBar() {
 								</span>
 							</a>
 						</div>
-						{/* Mobile Navbar */}
 						<div className="hamburger-menu">
 							{click ? (
 								<IoClose color="#fff" size="1.5em" onClick={handleClick} />

@@ -12,15 +12,12 @@ code {
     monospace;
 }
 
-/*  scrollbar-color: #ab50ff #3b066c; */
-/* ===== Scrollbar CSS ===== */
-  /* Firefox */
+
   * {
     scrollbar-width: auto;
      scrollbar-color: #ab50ff #3b066c;
   }
 
-  /* Chrome, Edge, and Safari */
   *::-webkit-scrollbar {
     width: 12px;
   }

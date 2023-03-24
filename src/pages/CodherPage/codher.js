@@ -48,7 +48,6 @@ function Codher() {
 				<h4>Prizes worth</h4>
 				<h2>{cash}</h2>
             	<h2>{title}</h2>
-				{/* <h3>{cash}</h3> */}
             	<p>{desc}</p>
           	</div>
         </div>

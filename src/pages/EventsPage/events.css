@@ -1,6 +1,5 @@
 .events_container {
     padding-top: 5.5rem;
-    /* height: 100%; */
 }
 
 .title span {
@@ -144,7 +143,6 @@
         flex-direction: column;
     }
     .events_container {
-        /* overflow-y: scroll; */
         flex-wrap: wrap;
     }
 }

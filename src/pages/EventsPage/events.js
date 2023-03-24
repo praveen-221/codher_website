@@ -79,25 +79,19 @@ function Events() {
                 <Card 
                     title={"Debug & Duel"}
                     desc={"This event is the right place for you to put your debugging and coding skills to test.Solve the bugs buried in the code. Individual participation"}
-                    // venue = {"online"}
-                    // time = {"5pm"}
 					r1 = {"Debug the given code without changing logic"}
 					r1Time = {"March 25, 5pm"}
 					r2 = {"Participants competeing with each other to solve coding problems"}
 					r2Time = {"March 26, 4pm"}
-                    // date = {"March 25 & 26"}
                     link = {"https://forms.gle/YfJTmCLXVYheqoX58"}
                 />
                 <Card 
                     title={"Shark Tank"}
                     desc={"Do you have solution to a real world problem which you think can create an impact? A solution that could be turned into a profitable venture. Then wait not. Because Shark Tank is the right place for you."}
-                    // venue = {"online"}
-                    // time = {"5pm"}
 					r1 = {"A quiz on technological products and its significance."}
 					r1Time = {"March 25, 11am - 2.30pm"}
 					r2 = {"Classical Business Pitching round before the judges."}
-					r2Time = {"March 26, 10am"}
-                    // date = {"March 25 & 26"}
+					r2Time = {"March 26, 10am"}                    
                     link = {"https://unstop.com/p/shark-tank-ceg-guindy-650412"}
                 />                
 			</div>
