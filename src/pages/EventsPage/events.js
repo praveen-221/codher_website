@@ -86,7 +86,7 @@ function Events() {
 					r2 = {"Participants competeing with each other to solve coding problems"}
 					r2Time = {"March 26, 4pm"}
                     // date = {"March 25 & 26"}
-                    link = {"https://forms.gle/tTLJDekv2cCimDSm6"}
+                    link = {"https://forms.gle/YfJTmCLXVYheqoX58"}
                 />
                 <Card 
                     title={"Shark Tank"}
@@ -94,8 +94,10 @@ function Events() {
                     // venue = {"online"}
                     // time = {"5pm"}
 					r1 = {"A quiz on technological products and its significance."}
+					r1Time = {"March 25, 11am - 2.30pm"}
 					r2 = {"Classical Business Pitching round before the judges."}
-                    date = {"March 25 & 26"}
+					r2Time = {"March 26, 10am"}
+                    // date = {"March 25 & 26"}
                     link = {"https://unstop.com/p/shark-tank-ceg-guindy-650412"}
                 />                
 			</div>

@@ -31,7 +31,7 @@ function Codher() {
   	const PrizeCard = ({ title, cash, desc, img }) => {
 		return (
 			<div className="prizecard">
-          <img src={img} />
+          <img className="prizepic" src={img} />
           <div className="prizecard-body">
             <h2>{cash}</h2>
 			<h3>{title}</h3>
@@ -40,11 +40,13 @@ function Codher() {
         </div>
 		);
 	}
-	const TrackCard = ({ title, desc }) => {
+	const TrackCard = ({ icon,cash,title, desc }) => {
 		return (
-			<div className="prizecard">
+			<div className="prizecard track">
+			<img className="trackicon" src={icon} />
         	<div className="prizecard-body">
             	<h2>{title}</h2>
+				<h3>{cash}</h3>
             	<p>{desc}</p>
           	</div>
         </div>
@@ -132,19 +134,27 @@ function Codher() {
 			</div>
 			<div className="special-prizes">
 				<TrackCard
+					icon="assets/medal.jfif"
 					title="Best innovative idea"
+					cash="₹ 4,000"
 					desc="Everything starts with an idea and we are ready to honor the most innovative idea in codher with a special track prize."
 				/>
 				<TrackCard
+					icon="assets/medal.jfif"
 					title="Best freshman"
+					cash="₹ 4,000"
 					desc="Sometimes talent needs a little encouragement and appreciation and we are ready to offer it through a track prize reserved for the best freshman team."
 				/>
 				<TrackCard
+					icon="assets/medal.jfif"
 					title="Best sophomore"
+					cash="₹ 4,000"
 					desc=" Second years, get ready to showcase your exceptional talent and innovation because we have reserved a track prize for the best sophomore team."
 				/>
 				<TrackCard
+					icon="assets/medal.jfif"
 					title="Best UI"
+					cash="₹ 4,000"
 					desc="A great Design is a beautiful amalgamation of  science and art. And it should be appreciated as all art should be. That's why we are ready with a special track prize for the team coming up with the best UI"
 				/>
 			</div>

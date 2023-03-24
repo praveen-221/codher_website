@@ -21,7 +21,7 @@ code {
 
   /* Chrome, Edge, and Safari */
   *::-webkit-scrollbar {
-    width: 15px;
+    width: 12px;
   }
 
   *::-webkit-scrollbar-track {
@@ -32,4 +32,10 @@ code {
     background-color: #6112ab;
     border-radius: 20px;
     border: 3px none #ffffff;
+  }
+
+  @media screen and (max-width: 768px) {
+    *::-webkit-scrollbar {
+      width: 6px;
+    }
   }

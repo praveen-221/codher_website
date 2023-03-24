@@ -43,7 +43,7 @@ function Home() {
 					</div>
 					<div>
 						<span>
-							<button className="btn">
+							<button className="btn" onClick={() => {window.location.href = "https://unstop.com/o/pKOWv5j?lb=fn6cF7C"}}>
 								<span>Register</span>
 							</button>
 						</span>

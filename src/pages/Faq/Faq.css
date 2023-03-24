@@ -60,7 +60,7 @@
 }
 
 p {
-  margin: 0 0 12px;
+  /* margin: 0 0 12px; */
   line-height: 1.5;
 }
 
@@ -89,6 +89,7 @@ h2 {
     rgba(255, 255, 255, 0.4),
     rgba(233, 233, 233, 0.1)
   );
+  background-color: blueviolet;
   /* backdrop-filter: blur(20px); */
   border-radius: 10px;
   border-bottom: 1px solid #ccc;
@@ -178,9 +179,13 @@ input.tgg-title {
   color: #e9e9e9;
   overflow:hidden;
   max-height: 0;
-  transition: max-height .4s ease-in-out;
+  text-align: justify;
+  transition: max-height 1s ease-in-out;
 }
 
+.faq-accordion-content p {
+  transition: max-height 1s ease-in-out;
+}
 
 /* Effects */
 /*================================================*/
