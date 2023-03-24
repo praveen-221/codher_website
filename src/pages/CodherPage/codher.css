@@ -121,11 +121,11 @@
     color: #eae0e0;
     margin-bottom: 5px;
   }
-  .special-prizes .prizecard img {
+  /* .special-prizes .prizecard img {
     width: 15%;
     height: 15%;
     margin-top: 10px;
-  }
+  } */
   .special-prizes .prizecard {
     border-bottom: 2px solid rgb(200, 142, 255);
   }

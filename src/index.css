@@ -12,30 +12,30 @@ code {
     monospace;
 }
 
+/*  scrollbar-color: #ab50ff #3b066c; */
 /* ===== Scrollbar CSS ===== */
   /* Firefox */
   * {
-    scrollbar-width: thin;
-    scrollbar-color: #ab50ff #3b066c;
+    scrollbar-width: auto;
+     scrollbar-color: #ab50ff #3b066c;
   }
 
   /* Chrome, Edge, and Safari */
   *::-webkit-scrollbar {
-    width: thin;
+    width: 16px;
   }
 
   *::-webkit-scrollbar-track {
-    background: #ab50ff;
+    background: rgb(172, 82, 255);
   }
 
   *::-webkit-scrollbar-thumb {
-    background-color: #6112ab;
-    border-radius: 20px;
-    border: 3px none #ffffff;
+    background-color: #8f54a0;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
   }
-
   @media screen and (max-width: 768px) {
     *::-webkit-scrollbar {
-      width: 6px;
+      width: thin;
     }
   }
