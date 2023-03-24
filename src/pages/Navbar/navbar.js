@@ -34,7 +34,7 @@ function NavBar() {
 					<nav>
 						<div className="logo">
 							<a href="https://auceg.acm.org" target={"blank"} className="logo_link">
-								<img src="/assets/ACMLogo.png" alt="ACM CEG"></img>
+								<img src="assets/ACMLogo.png" alt="ACM CEG"></img>
 							</a>
 						</div>
 						<div className="navlinks">
