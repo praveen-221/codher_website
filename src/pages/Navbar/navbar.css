@@ -120,8 +120,36 @@ nav {
   font-weight: 1500;
 }
 
-
+/* 
 @media (max-width: 650px) {
+  .logo .logo_link img {
+    height: 40px;
+  }
+  .nav {
+    margin: 0.5rem;
+    padding: 0.5rem 1.2rem;
+    height: 3rem;
+  }
+  .navlinks {
+    display: none;
+  }
+  .hamburger-menu{
+    display: flex;
+  }
+} */
+@media screen and (max-width: 768px) {
+  .logo{
+    position: relative;
+    right: 5%;
+  }
+  .logo .logo_link img {
+    height: 40px;
+  }
+  .nav {
+    margin: 0.5rem;
+    padding: 0.5rem 1.2rem;
+    height: 3rem;
+  }
   .navlinks {
     display: none;
   }
@@ -129,3 +157,4 @@ nav {
     display: flex;
   }
 }
+  

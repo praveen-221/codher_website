@@ -32,7 +32,7 @@ function Faq() {
                             <div className="faq-accordion-title">
                                 <label for="tgg-title-1">
                                     <h2>
-                                        Is codher only for women?
+                                        Is CODHER only for women?
                                     </h2>
                                     <span className="arrow-icon" style={{color:"white"}}>
                                         <img src="assets/arrow-white.ico"/>
@@ -50,7 +50,7 @@ function Faq() {
 
                                 <div className="faq-accordion-title">
                                     <label for="tgg-title-2">
-                                    <h2>What are the perks of attending Codher'23?</h2>
+                                    <h2>What are the perks of attending CODHER'23?</h2>
                                     <span className="arrow-icon" style={{color:"white"}}>
                                         <img src="assets/arrow-white.ico"/>
                                     </span>
@@ -347,7 +347,7 @@ We encourage beginners and freshman year students as well, you can browse throug
                                 </div>
 
                                 <div className="faq-accordion-content">
-                                    <p>Pre-events are aimed to create interest towards Codher and anyone can participate in these pre-events. We have 3 pre-events for Codher which are CodeX, Shark Tank, and Debug and duel.</p>
+                                    <p>Pre-events are aimed to create interest towards CODHER and anyone can participate in these pre-events. We have 3 pre-events for CODHER which are CodeX, Shark Tank, and Debug and duel.</p>
                                 </div>
 
                             </article>

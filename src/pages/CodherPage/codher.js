@@ -139,7 +139,7 @@ function Codher() {
 					icon="assets/medal.jfif"
 					title="Best innovative idea"
 					cash="₹ 4,000"
-					desc="Everything starts with an idea and we are ready to honor the most innovative idea in codher with a special track prize."
+					desc="Everything starts with an idea and we are ready to honor the most innovative idea in CODHER with a special track prize."
 				/>
 				<TrackCard
 					icon="assets/medal.jfif"
