@@ -40,10 +40,13 @@ function Codher() {
         </div>
 		);
 	}
-	const TrackCard = ({ title, desc }) => {
+	const TrackCard = ({ title, desc, cash }) => {
 		return (
 			<div className="prizecard">
+				<img src="assets/trophy.png" alt="trophy"/>
         	<div className="prizecard-body">
+				<h4>Prizes worth</h4>
+				<h2>{cash}</h2>
             	<h2>{title}</h2>
             	<p>{desc}</p>
           	</div>
@@ -133,18 +136,22 @@ function Codher() {
 			<div className="special-prizes">
 				<TrackCard
 					title="Best innovative idea"
+					cash = "₹ 4000"
 					desc="Everything starts with an idea and we are ready to honor the most innovative idea in codher with a special track prize."
 				/>
 				<TrackCard
 					title="Best freshman"
+					cash = "₹ 4000"
 					desc="Sometimes talent needs a little encouragement and appreciation and we are ready to offer it through a track prize reserved for the best freshman team."
 				/>
 				<TrackCard
 					title="Best sophomore"
+					cash = "₹ 4000"
 					desc=" Second years, get ready to showcase your exceptional talent and innovation because we have reserved a track prize for the best sophomore team."
 				/>
 				<TrackCard
 					title="Best UI"
+					cash = "₹ 4000"
 					desc="A great Design is a beautiful amalgamation of  science and art. And it should be appreciated as all art should be. That's why we are ready with a special track prize for the team coming up with the best UI"
 				/>
 			</div>
