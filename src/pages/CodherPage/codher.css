@@ -61,7 +61,7 @@
     background-color: blueviolet;
     /* backdrop-filter: blur(20px); */
     border-radius: 10px;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 2px solid #ccc;
     cursor: pointer;
     box-shadow: 0 13px 27px -5px hsla(240, 30.1%, 28%, 0.25), 0 8px 16px -8px hsla(0, 0%, 0%, 0.3), 0 -6px 16px -6px hsla(0, 0%, 0%, 0.03);
     transition: all ease 200ms;
@@ -77,7 +77,7 @@
   
   .prizepic {
     width: 60%;
-    height: 70%;
+    height: 60%;
     object-fit: cover;
     border-radius: 15px;
   }
@@ -86,8 +86,8 @@
     color: #ffffff;
     margin-top: -0.2em;
     line-height: 1.4;
-    font-size: 1.3em;
-    font-weight: 1200;
+    font-size: 25px;
+    font-weight: 900;
     /* font-family: 'Montserrat', sans-serif; */
     transition: all ease-in 100ms;
   }
@@ -116,11 +116,18 @@
     /* width: 100%; */
     height:max-content;
   }
-
-  .special-prizes .prizecard .prizecard-body h2:hover {
-    font-size: 1.4rem;
-    font-weight: bolder;
-    transition: all 0.2s ease-out;
+  .special-prizes .prizecard-body h4 {
+    font-size: large;
+    color: #eae0e0;
+    margin-bottom: 5px;
+  }
+  .special-prizes .prizecard img {
+    width: 15%;
+    height: 15%;
+    margin-top: 10px;
+  }
+  .special-prizes .prizecard {
+    border-bottom: 2px solid rgb(200, 142, 255);
   }
 
   @media (max-width: 1200px) {
