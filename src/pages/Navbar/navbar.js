@@ -74,6 +74,28 @@ function NavBar() {
 									Schedule
 								</span>
 							</a>
+							<a
+								href="#faq"
+								className="link"
+								onClick={() => change("Faq")}
+							>
+								<span
+									className={`${active === "Faq" ? "linkactive" : ""}`}
+								>
+									FAQ
+								</span>
+							</a>
+							<a
+								href="#contact"
+								className="link"
+								onClick={() => change("Contace")}
+							>
+								<span
+									className={`${active === "Contact" ? "linkactive" : ""}`}
+								>
+									Contact
+								</span>
+							</a>
 						</div>
 						<div className="hamburger-menu">
 							{click ? (
@@ -94,6 +116,12 @@ function NavBar() {
 									</a>
 									<a href="#schedule" onClick={closeMobileMenu}>
 										<span>Schedule</span>
+									</a>
+									<a href="#faq" onClick={closeMobileMenu}>
+										<span>FAQ</span>
+									</a>
+									<a href="#contact" onClick={closeMobileMenu}>
+										<span>Contact</span>
 									</a>
 								</div>
 							</div>

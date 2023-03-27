@@ -6,7 +6,7 @@
   align-items: center;
 }
 
-.title span {
+.Sponsorstitle span {
     background: 50% 100% / 50% 50% no-repeat
                 radial-gradient(ellipse at bottom, #fff, transparent, transparent);
     -webkit-background-clip: text;
@@ -34,7 +34,7 @@
     }
 }
 
-.sponsors {
+.sponsors, .community_sponsors {
     margin: 1.5rem 4rem;
     padding: 0.7rem 1.7rem;
     width: 75%;
@@ -78,11 +78,15 @@
     color: #ccc;
 }
 
+.community_sponsors {
+  width: max-content;
+}
+
 @media (max-width: 800px) {
   .other_sponsors {
     flex-direction: column;
   }
-  .sponsors {
+  .sponsors , .community_sponsors{
     height: 70%;
     width: 90%;
     margin: 1.5rem 0.5rem;

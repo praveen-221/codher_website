@@ -22,7 +22,7 @@ function Schedule() {
 
 	return (
 		<div className="timeline_container" id="schedule">
-			<div className="title">
+			<div className="Scheduletitle">
 				<span>TIMELINE</span>
 				{console.log(width)}
 			</div>

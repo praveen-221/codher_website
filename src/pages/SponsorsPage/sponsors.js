@@ -3,15 +3,16 @@ import "./sponsors.css";
 
 function Sponsors() {
   return (
+    <>
     <div className='sponsors_container' id='sponsors'>
-      <div className="title">
+      <div className="Sponsorstitle">
 				<span>SPONSORS</span>
 			</div>
       <div className='sponsors'>
         <div className='titleSponsor'>
           <h2 style={{ color: "white", paddingBottom: "1.2rem"}}>Title Sponsor</h2>
           <a href='https://motorq.com/' target={"blank"} style={{textDecoration: "none"}}>
-            <img src="assets/motoq_logo.jpg" style={{width: "275px",height:"70px",borderRadius: "10px"}}></img>
+            <img src="assets/motorq-logo.png" style={{width: "275px",height:"70px",borderRadius: "10px"}}></img>
           </a>
         </div>
         <div className='other_sponsors'>
@@ -30,6 +31,17 @@ function Sponsors() {
         </div>
       </div>
     </div>
+    <div className="sponsors_container">
+    <div className="title">
+      <span>COMMUNITY SPONSORS</span>
+    </div>
+    <div className='community_sponsors'>
+      {/* <a href='https://redink.app/' target={"blank"} style={{textDecoration: "none"}}> */}
+        <img src="assets/csmit.png" alt="Redink" style={{width: "300px",height:"150px",borderRadius: "10px"}}></img>
+      {/* </a> */}
+    </div>
+  </div>
+  </>
   )
 }
 

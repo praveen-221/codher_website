@@ -54,7 +54,7 @@ function Events() {
 							<span>
 								<a href={link} style={{ textDecoration: "none" }} target="_blank">
 									<button className="btn events" id={val ? val : ""}>
-										<span>Register</span>
+										<span>{val?<>Results</>:<>Register</>}</span>
 									</button>
 								</a>
 							</span>
@@ -64,7 +64,7 @@ function Events() {
     }
   return (
 		<div className='events_container' id='events'>
-			<div className="title">
+			<div className="Eventstitle">
 				<span>PRE EVENTS</span>
 			</div>
 			<div className='cardContainer'>
@@ -75,6 +75,7 @@ function Events() {
                     venue = {"online"}
                     time = {"5pm"}
                     date = {"March 19"}
+					link = {"https://www.instagram.com/p/CqBIuI7ok0e/"}
                 />
                 <Card 
                     title={"Debug & Duel"}

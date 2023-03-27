@@ -3,7 +3,7 @@ import "./Faq.css";
 
 function Faq() {
     return (
-        <div className="faqcontent">
+        <div className="faqcontent" id="faq">
 
 
             <div className="card-wrapper  | content-cc">

@@ -3,7 +3,7 @@ import "./footer.css";
 
 function Footer() {
   return (
-		<div className="sticky">
+		<div className="sticky" id="contact">
 			<footer className="footer">
 				<div className="container">
 					<div className="row">
@@ -23,6 +23,7 @@ function Footer() {
 								<li className="contactList">Asmitha Eswaran : 7338850301</li>
 								<li className="contactList">Pranava Raman BMS : 9443501317</li>
 								<li className="contactList">Akshayalakshmi VK : 9360722652</li>
+								<li className="contactList">Email: codher@auceg.acm.org</li>
 							</ul>
 						</div>
 						<div className="footer-col">

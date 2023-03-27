@@ -22,13 +22,21 @@
     background-clip: text;
     color: transparent;
     font-size: 2em; 
-    margin: 1em 0;
+    /* margin: 0.5em 0 0; */
     font-weight: 700;
     animation: reveal 3000ms ease-in-out forwards 200ms,
                glow 2500ms linear infinite 2000ms;
 }
-
-.column1 .title, .column1 .date {
+img.motorq-logo {
+    width: 30%;
+    height: 20%;
+}
+.column1 .title{
+    margin: 0.5em 0;
+    display: flex;
+    flex-direction: column;
+}
+.column1 .date {
     margin: 1em 0;
 }
 
@@ -60,7 +68,12 @@
       text-shadow: 0 0 8px #fff;
     }
 }
-
+.powered-by {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
 .content {
     font-size: large;
     font-weight: 400;
@@ -102,8 +115,10 @@
     background: white;
     box-shadow:none;
 }
-.title img {
-    width: 300px;
+.title img.codher-img {
+    width: 700px;
+    height: 30%;
+    margin-top: 20%;
 }
 .arrow{
     display: inline;
@@ -168,6 +183,20 @@
 }
 
 @media (max-width: 750px) {
+    img.motorq-logo {
+        width: 50%;
+        height: 30%;
+    }
+    .title img.codher-img {
+        width: 300px;
+        margin-top: 0;
+    }
+    .column1 .title span {
+        font-size: 1.5em;
+    }
+    .powered-by{
+        flex-direction: column;
+    }
     .flexcontainer {
         height: auto;
         margin-bottom: 3rem;
@@ -181,6 +210,9 @@
 }
 
 @media (max-width: 500px) {
+    .title img.codher-img {
+        width: 300px;
+    }
     .mobile-arrow {
         margin: 1rem;
         padding: 10px;
