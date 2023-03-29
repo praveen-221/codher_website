@@ -75,7 +75,7 @@ function Events() {
                     venue = {"online"}
                     time = {"5pm"}
                     date = {"March 19"}
-					link = {"https://www.instagram.com/p/CqTFdgdSLyg/?igshid=YmMyMTA2M2Y="}
+					link = {"https://www.instagram.com/p/CqBIuI7ok0e/"}
                 />
                 <Card 
 					val={"completed"}
@@ -85,7 +85,7 @@ function Events() {
 					r1Time = {"March 25, 5pm"}
 					r2 = {"Participants competeing with each other to solve coding problems"}
 					r2Time = {"March 26, 4pm"}
-                    link = {"https://forms.gle/YfJTmCLXVYheqoX58"}
+                    link = {"https://www.instagram.com/p/CqTFdgdSLyg/?igshid=YmMyMTA2M2Y="}
                 />
                 <Card 
 					val={"completed"}
