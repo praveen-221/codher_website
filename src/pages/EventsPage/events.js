@@ -75,7 +75,7 @@ function Events() {
                     venue = {"online"}
                     time = {"5pm"}
                     date = {"March 19"}
-					link = {"https://www.instagram.com/p/CqBIuI7ok0e/"}
+					link = {"https://www.instagram.com/p/CqTFdgdSLyg/?igshid=YmMyMTA2M2Y="}
                 />
                 <Card 
 					val={"completed"}
