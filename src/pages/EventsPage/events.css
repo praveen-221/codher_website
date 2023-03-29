@@ -65,10 +65,10 @@
 }
 
 .card #completed {
-    background: #f70505;
+    background: #BB29BB;
 }
 .card #completed:hover {
-    background: #ccc;
+    background: #e0e0e0;
 }
 
 .main{
@@ -81,7 +81,7 @@
 
 .description{
     margin: 0.5rem 0;
-    color: #d7d7d7;
+    color: #fafafa;
     font-size: large;
     font-weight: 1000;
     line-height: 1.5;

@@ -7,7 +7,7 @@ function Events() {
         return (
 					<div className="card">
 						<div className="main">
-							<h2 style={{ color: "#ccc", textDecoration: "underline" }}>
+							<h2 style={{ color: "#fff", textDecoration: "underline" }}>
 								{title}
 							</h2>
 							<p className="description">{desc}</p>
@@ -78,6 +78,7 @@ function Events() {
 					link = {"https://www.instagram.com/p/CqBIuI7ok0e/"}
                 />
                 <Card 
+					val={"completed"}
                     title={"Debug & Duel"}
                     desc={"This event is the right place for you to put your debugging and coding skills to test.Solve the bugs buried in the code. Individual participation"}
 					r1 = {"Debug the given code without changing logic"}
@@ -87,13 +88,14 @@ function Events() {
                     link = {"https://forms.gle/YfJTmCLXVYheqoX58"}
                 />
                 <Card 
+					val={"completed"}
                     title={"Shark Tank"}
                     desc={"Do you have solution to a real world problem which you think can create an impact? A solution that could be turned into a profitable venture. Then wait not. Because Shark Tank is the right place for you."}
 					r1 = {"A quiz on technological products and its significance."}
 					r1Time = {"March 25, 11am - 2.30pm"}
 					r2 = {"Classical Business Pitching round before the judges."}
 					r2Time = {"March 26, 10am"}                    
-                    link = {"https://unstop.com/p/shark-tank-ceg-guindy-650412"}
+                    link = {"https://www.instagram.com/p/CqVWJSTyB_y/?utm_source=ig_web_button_share_sheet"}
                 />                
 			</div>
 		</div>

@@ -26,8 +26,8 @@ function Home() {
 			<div className="flexcontainer" id="home">
 				<div className="column1">
 					<div className="title">
-						<a href='/' style={{textDecoration: "none"}}><img class="codher-img" src="assets/codher_logo.png" alt="CODHER"></img></a>
-						<a href="https://motorq.com/" style={{textDecoration:"none"}}><div class="powered-by"><span>Powered by</span><img class="motorq-logo" src="assets/motorq-logo.png" alt="CODHER 2023" /></div></a>
+						<a href='/' style={{textDecoration: "none"}}><img class="codher-img" src="assets/codher_23_logo.png" alt="CODHER"></img></a>
+						{/* <a href="https://motorq.com/" style={{textDecoration:"none"}}><div class="powered-by"><span>Powered by</span><img class="motorq-logo" src="assets/motorq-logo.png" alt="CODHER 2023" /></div></a> */}
 					</div>
 					<div className="content">
 						An all day hackathon to channel all that inner coddess energy to

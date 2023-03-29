@@ -79,7 +79,14 @@
 }
 
 .community_sponsors {
+  flex-direction: row;
   width: max-content;
+}
+
+.community_sponsors img {
+  margin: 0 2em;
+  padding: 1em;
+  border-radius: 20px;
 }
 
 @media (max-width: 800px) {
@@ -94,5 +101,10 @@
   .sponsors_container {
     flex-wrap: wrap;
     height: auto;
+  }
+  .community_sponsors {
+    flex-direction: column;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
   }
 }
