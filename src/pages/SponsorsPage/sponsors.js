@@ -96,11 +96,11 @@ function Sponsors() {
 						alt="Community Of Coders"
 						style={{ width: "350px", height: "100px", borderRadius: "20px" }}
 					></img>
-					{/* <img
+					<img
 						src="assets/acm-w_logo.png"
 						alt="ssn-acm-w"
-						style={{ width: "300px", height: "150px", borderRadius: "10px" }}
-					></img> */}
+						style={{ width: "150px", height: "150px", borderRadius: "10px" }}
+					></img>
 				</div>
 			</div>
 		</>

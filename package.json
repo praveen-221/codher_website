@@ -1,6 +1,5 @@
 {
   "name": "codher_website",
-  "homepage": "https://auceg.acm.org/codher",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

@@ -200,3 +200,9 @@ input.tgg-title {
   animation: reveal 3000ms ease-in-out forwards 200ms,
              glow 2500ms linear infinite 2000ms;
 }
+
+@media (max-width: 600px) {
+  .commSponsor span {
+    font-size: 1.2em;
+  }
+}
