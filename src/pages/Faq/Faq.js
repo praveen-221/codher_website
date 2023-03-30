@@ -398,6 +398,8 @@ We encourage beginners and freshman year students as well, you can browse throug
                 </div> 
 
             </div> 
+            <div className='commSponsor'><span>Want to become our community sponsor<br/>Mail us at: publicrelations@codher.org</span></div>
+            <br/><br/>
         </div>
     )
 }
