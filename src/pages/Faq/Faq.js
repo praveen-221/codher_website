@@ -398,7 +398,7 @@ We encourage beginners and freshman year students as well, you can browse throug
                 </div> 
 
             </div> 
-            <div className='commSponsor'><span>Want to become our community sponsor<br/>Mail us at: publicrelations@codher.org</span></div>
+            <div className='commSponsor'><span>Want to become our community sponsor<br/>Mail us at: <a href="mailto:publicrelations@auceg.acm.org" target={"blank"} style={{ textDecoration: "none", color: "transparent" }}>publicrelations@auceg.acm.org</a></span></div>
             <br/><br/>
         </div>
     )

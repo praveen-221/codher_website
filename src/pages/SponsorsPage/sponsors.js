@@ -91,17 +91,16 @@ function Sponsors() {
 							style={{ width: "250px", height: "150px", borderRadius: "20px" }}
 						></img>
 					</a>
-					<a
-						href=""
-						target={"blank"}
-						style={{ textDecoration: "none" }}
-					>
-						<img
-							src="assets/communityOfCoders.jpeg"
-							alt="Community Of Coders"
-							style={{ width: "350px", height: "100px", borderRadius: "20px" }}
-						></img>
-					</a>
+					<img
+						src="assets/communityOfCoders.jpeg"
+						alt="Community Of Coders"
+						style={{ width: "350px", height: "100px", borderRadius: "20px" }}
+					></img>
+					{/* <img
+						src="assets/acm-w_logo.png"
+						alt="ssn-acm-w"
+						style={{ width: "300px", height: "150px", borderRadius: "10px" }}
+					></img> */}
 				</div>
 			</div>
 		</>
