@@ -69,11 +69,11 @@ function Sponsors() {
 							<h2 style={{ color: "white", paddingBottom: "1rem" }}>
 								Promotional Partner
 							</h2>
-							<a
+							{/* <a
 								href=""
 								target={"blank"}
 								style={{ textDecoration: "none" }}
-							>
+							> */}
 								<img
 									src="assets/CEW.png"
 									alt="CEW"
@@ -83,7 +83,7 @@ function Sponsors() {
 										borderRadius: "10px",
 									}}
 								></img>
-							</a>
+							{/* </a> */}
 						</div>
 					</div>
 				</div>
@@ -171,11 +171,11 @@ function Sponsors() {
 								}}
 							></img>
 						</a>
-						<a
+						{/* <a
 							href=""
 							target={"blank"}
 							style={{ textDecoration: "none" }}
-						>
+						> */}
 							<img
 								src="assets/IEEE_calicut.png"
 								alt="IEEE Calicut"
@@ -185,12 +185,12 @@ function Sponsors() {
 									borderRadius: "25px",
 								}}
 							></img>
-						</a>
-						<a
+						{/* </a> */}
+						{/* <a
 							href=""
 							target={"blank"}
 							style={{ textDecoration: "none" }}
-						>
+						> */}
 							<img
 								src="assets/IEEE_SSEC.png"
 								alt="IEEE SSEC"
@@ -200,12 +200,12 @@ function Sponsors() {
 									borderRadius: "10px",
 								}}
 							></img>
-						</a>
-						<a
+						{/* </a> */}
+						{/* <a
 							href=""
 							target={"blank"}
 							style={{ textDecoration: "none" }}
-						>
+						> */}
 							<img
 								src="assets/alphadotdev.jpeg"
 								alt="alpha.dev"
@@ -215,7 +215,7 @@ function Sponsors() {
 									borderRadius: "25px",
 								}}
 							></img>
-						</a>
+						{/* </a> */}
 					</div>
 				</div>
 			</div>
