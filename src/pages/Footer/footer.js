@@ -23,7 +23,16 @@ function Footer() {
 								<li className="contactList">Asmitha Eswaran : 7338850301</li>
 								<li className="contactList">Pranava Raman BMS : 9443501317</li>
 								<li className="contactList">Akshayalakshmi VK : 9360722652</li>
-								<li className="contactList">Email: codher@auceg.acm.org</li>
+								<li className="contactList">
+									Email:
+									<a
+										href="mailto:codher@auceg.acm.org"
+										target="blank"
+										style={{ textDecoration: "none", color: "#fff", textTransform: "lowercase"}}
+									>
+										codher@auceg.acm.org
+									</a>
+								</li>
 							</ul>
 						</div>
 						<div className="footer-col">
@@ -38,7 +47,10 @@ function Footer() {
 								<a href="https://www.instagram.com/acm_ceg" target="blank">
 									<i className="fab fa-instagram"></i>
 								</a>
-								<a href="https://www.linkedin.com/company/acm-student-chapter-of-ceg/mycompany/" target="blank">
+								<a
+									href="https://www.linkedin.com/company/acm-student-chapter-of-ceg/mycompany/"
+									target="blank"
+								>
 									<i className="fab fa-linkedin-in"></i>
 								</a>
 							</div>
@@ -49,7 +61,9 @@ function Footer() {
 				<div>
 					<hr className="dashed"></hr>
 					<div className="copyright">
-                        <div>&copy;&nbsp;2023&nbsp;<strong>ACM CEG</strong>.</div>
+						<div>
+							&copy;&nbsp;2023&nbsp;<strong>ACM CEG</strong>.
+						</div>
 						<div>&nbsp;Made with 🖤️ by TechOps, ACM CEG</div>
 					</div>
 				</div>

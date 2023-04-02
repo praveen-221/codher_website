@@ -79,7 +79,6 @@
 }
 
 .community_sponsors {
-  flex-direction: row;
   width: max-content;
 }
 
@@ -87,6 +86,11 @@
   margin: 0 2em;
   padding: 1em;
   border-radius: 20px;
+}
+
+.community-row {
+  margin: 10px;
+  padding: 10px;
 }
 
 @media (max-width: 800px) {
@@ -106,5 +110,9 @@
     flex-direction: column;
     padding-top: 1.5em;
     padding-bottom: 1.5em;
+  }
+  .community-row {
+    margin: 0 10px;
+    padding: 0 10px;
   }
 }

@@ -73,34 +73,85 @@ function Sponsors() {
 					<span>COMMUNITY SPONSORS</span>
 				</div>
 				<div className="community_sponsors">
-					{/* <a href='https://redink.app/' target={"blank"} style={{textDecoration: "none"}}> */}
-					<img
-						src="assets/csmit.png"
-						alt="csmit"
-						style={{ width: "300px", height: "150px", borderRadius: "10px" }}
-					></img>
-					{/* </a> */}
-					<a
-						href="https://csau.in/"
-						target={"blank"}
-						style={{ textDecoration: "none" }}
-					>
-						<img
-							src="assets/csau.jpg"
-							alt="csau"
-							style={{ width: "250px", height: "150px", borderRadius: "20px" }}
-						></img>
-					</a>
-					<img
-						src="assets/communityOfCoders.jpeg"
-						alt="Community Of Coders"
-						style={{ width: "350px", height: "100px", borderRadius: "20px" }}
-					></img>
-					<img
-						src="assets/acm-w_logo.png"
-						alt="ssn-acm-w"
-						style={{ width: "150px", height: "150px", borderRadius: "10px" }}
-					></img>
+					<div className="community-row">
+						<a
+							href="https://www.cb.mitindia.edu/"
+							target={"blank"}
+							style={{ textDecoration: "none" }}
+						>
+							<img
+								src="assets/csmit.png"
+								alt="csmit"
+								style={{
+									width: "300px",
+									height: "150px",
+									borderRadius: "10px",
+								}}
+							></img>
+						</a>
+						<a
+							href="https://csau.in/"
+							target={"blank"}
+							style={{ textDecoration: "none" }}
+						>
+							<img
+								src="assets/csau.jpg"
+								alt="csau"
+								style={{
+									width: "250px",
+									height: "150px",
+									borderRadius: "20px",
+								}}
+							></img>
+						</a>
+						<a
+							href="https://www.communityofcoders.in/"
+							target={"blank"}
+							style={{ textDecoration: "none" }}
+						>
+							<img
+								src="assets/communityOfCoders.jpeg"
+								alt="Community Of Coders"
+								style={{
+									width: "350px",
+									height: "100px",
+									borderRadius: "20px",
+								}}
+							></img>
+						</a>
+					</div>
+					<div className="community-row">
+						<a
+							href="https://www.ssnw.hosting.acm.org/"
+							target={"blank"}
+							style={{ textDecoration: "none" }}
+						>
+							<img
+								src="assets/acm-w_logo.png"
+								alt="ssn-acm-w"
+								style={{
+									width: "180px",
+									height: "180px",
+									borderRadius: "10px",
+								}}
+							></img>
+						</a>
+						<a
+							href="https://acmnitt.in/"
+							target={"blank"}
+							style={{ textDecoration: "none" }}
+						>
+							<img
+								src="assets/nitt.png"
+								alt="acm-nitt"
+								style={{
+									width: "180px",
+									height: "180px",
+									borderRadius: "10px",
+								}}
+							></img>
+						</a>
+					</div>
 				</div>
 			</div>
 		</>

@@ -41,3 +41,5 @@ function App() {
 }
 
 export default App;
+
+// Add in package-json & build to deploy: "homepage": "https://auceg.acm.org/codher",
