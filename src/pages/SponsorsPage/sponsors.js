@@ -82,8 +82,8 @@ function Sponsors() {
 									src="assets/CEW.png"
 									alt="CEW"
 									style={{
-										width: "200px",
-										height: "150px",
+										width: "230px",
+										height: "180px",
 										borderRadius: "25px",
 									}}
 								></img>
