@@ -65,6 +65,26 @@ function Sponsors() {
 								></img>
 							</a>
 						</div>
+						<div style={{ paddingBottom: "1rem" }}>
+							<h2 style={{ color: "white", paddingBottom: "1rem" }}>
+								Promotional Partner
+							</h2>
+							<a
+								href=""
+								target={"blank"}
+								style={{ textDecoration: "none" }}
+							>
+								<img
+									src="assets/CEW.png"
+									alt="CEW"
+									style={{
+										width: "150px",
+										height: "120px",
+										borderRadius: "10px",
+									}}
+								></img>
+							</a>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -119,8 +139,6 @@ function Sponsors() {
 								}}
 							></img>
 						</a>
-					</div>
-					<div className="community-row">
 						<a
 							href="https://www.ssnw.hosting.acm.org/"
 							target={"blank"}
@@ -130,12 +148,14 @@ function Sponsors() {
 								src="assets/acm-w_logo.png"
 								alt="ssn-acm-w"
 								style={{
-									width: "170px",
-									height: "170px",
+									width: "180px",
+									height: "180px",
 									borderRadius: "10px",
 								}}
 							></img>
 						</a>
+					</div>
+					<div className="community-row">
 						<a
 							href="https://acmnitt.in/"
 							target={"blank"}
@@ -148,6 +168,51 @@ function Sponsors() {
 									width: "180px",
 									height: "180px",
 									borderRadius: "10px",
+								}}
+							></img>
+						</a>
+						<a
+							href=""
+							target={"blank"}
+							style={{ textDecoration: "none" }}
+						>
+							<img
+								src="assets/IEEE_calicut.png"
+								alt="IEEE Calicut"
+								style={{
+									width: "200px",
+									height: "150px",
+									borderRadius: "25px",
+								}}
+							></img>
+						</a>
+						<a
+							href=""
+							target={"blank"}
+							style={{ textDecoration: "none" }}
+						>
+							<img
+								src="assets/IEEE_SSEC.png"
+								alt="IEEE SSEC"
+								style={{
+									width: "300px",
+									height: "150px",
+									borderRadius: "10px",
+								}}
+							></img>
+						</a>
+						<a
+							href=""
+							target={"blank"}
+							style={{ textDecoration: "none" }}
+						>
+							<img
+								src="assets/alphadotdev.jpeg"
+								alt="alpha.dev"
+								style={{
+									width: "170px",
+									height: "170px",
+									borderRadius: "25px",
 								}}
 							></img>
 						</a>
