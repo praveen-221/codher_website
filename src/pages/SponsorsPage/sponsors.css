@@ -34,7 +34,7 @@
     }
 }
 
-.sponsors, .community_sponsors {
+.sponsors, .community_sponsors, .promotional_partners {
     margin: 1.5rem 4rem;
     padding: 0.7rem 1.7rem;
     width: 75%;
@@ -78,11 +78,11 @@
     color: #ccc;
 }
 
-.community_sponsors {
+.community_sponsors, .promotional_partners {
   width: max-content;
 }
 
-.community_sponsors img {
+.community_sponsors img, .promotional_partners img {
   margin: 0 2em;
   padding: 1em;
   border-radius: 20px;
@@ -97,7 +97,7 @@
   .other_sponsors {
     flex-direction: column;
   }
-  .sponsors , .community_sponsors{
+  .sponsors , .community_sponsors, .promotional_partners{
     height: 70%;
     width: 90%;
     margin: 1.5rem 0.5rem;
@@ -106,7 +106,7 @@
     flex-wrap: wrap;
     height: auto;
   }
-  .community_sponsors {
+  .community_sponsors, .promotional_partners {
     flex-direction: column;
     padding-top: 1.5em;
     padding-bottom: 1.5em;

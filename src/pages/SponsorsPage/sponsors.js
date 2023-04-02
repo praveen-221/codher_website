@@ -65,11 +65,15 @@ function Sponsors() {
 								></img>
 							</a>
 						</div>
-						<div style={{ paddingBottom: "1rem" }}>
-							<h2 style={{ color: "white", paddingBottom: "1rem" }}>
-								Promotional Partner
-							</h2>
-							{/* <a
+					</div>
+				</div>
+			</div>
+			<div className="sponsors_container">
+				<div className="Sponsorstitle">
+					<span>PROMOTIONAL PARTNERS</span>
+				</div>
+				<div className='promotional_partners'>
+					{/* <a
 								href=""
 								target={"blank"}
 								style={{ textDecoration: "none" }}
@@ -78,14 +82,12 @@ function Sponsors() {
 									src="assets/CEW.png"
 									alt="CEW"
 									style={{
-										width: "150px",
-										height: "120px",
-										borderRadius: "10px",
+										width: "200px",
+										height: "150px",
+										borderRadius: "25px",
 									}}
 								></img>
 							{/* </a> */}
-						</div>
-					</div>
 				</div>
 			</div>
 			<div className="sponsors_container">
@@ -115,7 +117,7 @@ function Sponsors() {
 							style={{ textDecoration: "none" }}
 						>
 							<img
-								src="assets/csau.jpg"
+								src="assets/CSAU.jpg"
 								alt="csau"
 								style={{
 									width: "250px",
