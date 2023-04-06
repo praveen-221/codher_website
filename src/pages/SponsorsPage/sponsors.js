@@ -156,21 +156,6 @@ function Sponsors() {
 								}}
 							></img>
 						</a>
-						<a
-							href="https://www.ssnw.hosting.acm.org/"
-							target={"blank"}
-							style={{ textDecoration: "none" }}
-						>
-							<img
-								src="assets/acm-w_logo.png"
-								alt="ssn-acm-w"
-								style={{
-									width: "180px",
-									height: "180px",
-									borderRadius: "10px",
-								}}
-							></img>
-						</a>
 					</div>
 					<div className="community-row">
 					<a
@@ -238,7 +223,24 @@ function Sponsors() {
 							target={"blank"}
 							style={{ textDecoration: "none" }}
 						> */}
+						{/* </a> */}
+						<div className="community-row">
+						<a
+							href="https://www.ssnw.hosting.acm.org/"
+							target={"blank"}
+							style={{ textDecoration: "none" }}
+						>
 							<img
+								src="assets/acm-w_logo.png"
+								alt="ssn-acm-w"
+								style={{
+									width: "180px",
+									height: "180px",
+									borderRadius: "10px",
+								}}
+							></img>
+						</a>
+						<img
 								src="assets/alphadotdev.jpeg"
 								alt="alpha.dev"
 								style={{
@@ -247,7 +249,7 @@ function Sponsors() {
 									borderRadius: "25px",
 								}}
 							></img>
-						{/* </a> */}
+						</div>
 					</div>
 				</div>
 			</div>
