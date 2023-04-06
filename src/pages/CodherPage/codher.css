@@ -83,11 +83,11 @@
   color: #ffffff;
   margin-top: -0.2em;
   line-height: 1.4;
-  font-size: 25px;
-  font-weight: 900;
   transition: all ease-in 100ms;
 }
-
+.popup h2{
+  margin-top: 1rem;
+}
 .prizecard p {
   color: #e9e9e9;
   font-size: 1.3em;
@@ -175,17 +175,30 @@
 .popup .close:hover {
   color: blueviolet;
 }
-.popup .content {
+.popup .popupcontent {
   /* max-height: 50%; */
   font-weight: bold;
   font-size: large;
   color: #fff;
-  overflow: auto;
 }
 
 @media screen and (max-width: 700px){
+  .popuptitle {
+    font-size: 2rem;
+    margin-top: 1rem;
+  }
   .popup{
+    position: relative;
+    margin: 0 auto;
+    top: 15%;
     width: 85%;
+    height: 70%;
+    overflow-y: scroll;
+  }
+  .popup .popupcontent{
+    font-size: 17px;
+    text-align: left;
+    line-height: 130%;
   }
 }
 
@@ -321,9 +334,8 @@
   padding-top: 5.5rem;
 }
 
-.tracks h2 {
-  font-size: 2.5em;
-  margin-top: 2rem;
+.popuptitle {
+  font-size: 2em;
   text-decoration: underline;
 }
 

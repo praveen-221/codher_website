@@ -65,11 +65,11 @@ function Codher() {
 		return(
 			<div id={_id} class="overlay">
 					<div class="popup">
-						<h2>{title}</h2>
+						<h2 class="popuptitle">{title}</h2>
 						<a class="close" href="#tracks">
 							&times;
 						</a>
-						<div class="content">
+						<div class="popupcontent">
 							{content}
 						</div>
 					</div>

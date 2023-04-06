@@ -7,7 +7,7 @@ export const tracks = [
     {
         id : "t2",
         title : "Supply Chain",
-        content : "The supply chain industry has seen significant technological advancements in recent years, leading to a shift towards automation, data-driven decision making, and improved supply chain visibility. One of the most significant trends is the use of Artificial Intelligence (AI) and Machine Learning (ML) to optimize supply chain operations. These technologies can analyze vast amounts of data and provide real-time insights that can inform decision making, such as predicting demand and optimizing inventory levels.Another trend is the adoption of blockchain technology, which offers a secure and transparent way to track and record supply chain transactions. Blockchain can also improve supply chain traceability, allowing companies to verify the authenticity of products and ensure they are ethically sourced.."
+        content : "The supply chain industry has seen significant technological advancements in recent years, leading to a shift towards automation, data-driven decision making, and improved supply chain visibility.These technologies can analyze vast amounts of data and provide real-time insights that can inform decision making, such as predicting demand and optimizing inventory levels.Another trend is the adoption of blockchain technology. Blockchain can also improve supply chain traceability, allowing companies to verify the authenticity of products and ensure they are ethically sourced.."
     },
     {
         id : "t3",
@@ -17,7 +17,7 @@ export const tracks = [
     {
         id : "t4",
         title : "Healthcare",
-        content : "In recent years, there has been a growing concern about women's safety, and various technological advancements have been made to address this issue.These advancements range from personal safety devices, such as panic buttons and GPS-enabled trackers, to smart surveillance systems and mobile apps that help women access emergency services quickly. These technologies have the potential to empower women and provide them with a sense of security, especially in public spaces where they may feel vulnerable."
+        content : "The healthcare industry has undergone a digital transformation where technologies like AI and ML are being increasingly used in healthcare to assist with diagnosis, treatment, and drug discovery. Use of computer technology in healthcare has boundless scope and infinite potential and it’s up to you to tap it right."
     },
     {
         id : "t5",
