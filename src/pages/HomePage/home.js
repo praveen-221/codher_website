@@ -47,9 +47,9 @@ function Home() {
 							</button>
 						</span>
 
-						<a href="#events" style={{ textDecoration: "none" }}>
+						<a href="#tracks" style={{ textDecoration: "none" }}>
 							<span className="sec_btn">
-								Pre events &nbsp;&nbsp;
+								Tracks &nbsp;&nbsp;
 								<img
 									src="assets/downarrow.png"
 									alt="downarrow"

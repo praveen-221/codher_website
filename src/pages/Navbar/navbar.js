@@ -44,12 +44,12 @@ function NavBar() {
 								</span>
 							</a>
 							<a
-								href="#events"
+								href="#tracks"
 								className="link"
-								onClick={() => change("Events")}
+								onClick={() => change("Tracks")}
 							>
 								<span className={`${active === "Events" ? "linkactive" : ""}`}>
-									Pre Events
+									Tracks
 								</span>
 							</a>
 							<a
@@ -88,7 +88,7 @@ function NavBar() {
 							<a
 								href="#contact"
 								className="link"
-								onClick={() => change("Contace")}
+								onClick={() => change("Contact")}
 							>
 								<span
 									className={`${active === "Contact" ? "linkactive" : ""}`}
@@ -108,8 +108,8 @@ function NavBar() {
 									<a href="#home" onClick={closeMobileMenu}>
 										<span>Home</span>
 									</a>
-									<a href="#events" onClick={closeMobileMenu}>
-										<span>Pre Events</span>
+									<a href="#tracks" onClick={closeMobileMenu}>
+										<span>Tracks</span>
 									</a>
 									<a href="#sponsors" onClick={closeMobileMenu}>
 										<span>Sponsors</span>

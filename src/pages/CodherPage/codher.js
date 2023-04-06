@@ -1,5 +1,6 @@
 import React, { useEffect, useState, useCallback } from 'react';
 import "./codher.css";
+import { tracks } from "../../tracks.js";
 
 function Codher() {
   const [width, setWidth] = useState(window.innerWidth);
@@ -28,6 +29,7 @@ function Codher() {
       document.body.removeChild(script);
     }
   }, []);
+
   	const PrizeCard = ({ title, cash, desc, img }) => {
 		return (
 			<div className="prizecard">
@@ -40,6 +42,41 @@ function Codher() {
         </div>
 		);
 	}
+
+	const Button = ({TrackName, _id}) => {
+		return (
+			<>
+				<span>
+					<a style={{ textDecoration: "none" }} href={`#${_id}`}>
+						<button className="trackBtn">
+							{TrackName}
+							<span></span>
+							<span></span>
+							<span></span>
+							<span></span>
+						</button>
+					</a>
+				</span>
+			</>
+		);
+	}
+
+	const PopupModal = ({_id, title, content}) => {
+		return(
+			<div id={_id} class="overlay">
+					<div class="popup">
+						<h2>{title}</h2>
+						<a class="close" href="#tracks">
+							&times;
+						</a>
+						<div class="content">
+							{content}
+						</div>
+					</div>
+				</div>
+		);
+	}
+	
 	const TrackCard = ({ icon,cash,title, desc }) => {
 		return (
 			<div className="prizecard">
@@ -159,12 +196,27 @@ function Codher() {
 					desc="A great Design is a beautiful amalgamation of  science and art. And it should be appreciated as all art should be. That's why we are ready with a special track prize for the team coming up with the best UI"
 				/>
 			</div>
-			<div className="tracks">
+			<div className="tracks" id="tracks">
 				<div className="tracks-title">
 					<span>TRACKS</span>
 				</div>
-				<h2 className="text-shadow">COMING SOON...</h2>
-				<div className="tags"></div>
+				{/* <h2 className="text-shadow">COMING SOON...</h2>
+				<div className="tags"></div> */}
+				<div>
+				{tracks.map((element, key) => {
+					return (
+						<>
+							<Button TrackName={element.title} _id={element.id} />
+							<PopupModal
+								_id={element.id} 
+								title={element.title}
+								content={element.content}
+							/>
+							{/* {console.log(element)} */}
+						</>
+					);
+				})}
+				</div>
 			</div>
 		</div>
 	);
