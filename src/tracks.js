@@ -26,7 +26,7 @@ export const tracks = [
     },
     {
         id : "t6",
-        title : "Interiror Design",
+        title : "Interior Design",
         content : "Technology has revolutionised the field of interior design, making it more efficient, accessible, and customizable. Some examples include 3D printing, 3D modelling software, etc. With the evolution of 3D printing, point clouds, virtual reality (VR) and augmented reality (AR), there will inevitably be new expectations and standards of interior design."
     },
 ]

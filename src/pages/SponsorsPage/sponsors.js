@@ -87,6 +87,15 @@ function Sponsors() {
 										borderRadius: "25px",
 									}}
 								></img>
+								<img
+									src="assets/CSEALogo.png"
+									alt="CEW"
+									style={{
+										width: "200px",
+										height: "125px",
+										borderRadius: "25px",
+									}}
+								></img>
 							{/* </a> */}
 				</div>
 			</div>
