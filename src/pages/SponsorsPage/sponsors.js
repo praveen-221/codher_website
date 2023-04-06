@@ -87,24 +87,30 @@ function Sponsors() {
 										borderRadius: "25px",
 									}}
 								></img>
-								<img
-									src="assets/CSEALogo.png"
-									alt="CEW"
-									style={{
-										width: "200px",
-										height: "125px",
-										borderRadius: "25px",
-									}}
-								></img>
 							{/* </a> */}
 				</div>
 			</div>
 			<div className="sponsors_container">
 				<div className="Sponsorstitle">
-					<span>COMMUNITY SPONSORS</span>
+					<span>COMMUNITY PARTNERS</span>
 				</div>
 				<div className="community_sponsors">
 					<div className="community-row">
+						<a
+							href="https://cseaceg.org.in/"
+							target={"blank"}
+							style={{ textDecoration: "none" }}
+						>
+							<img
+								src="assets/CSEALogo.png"
+								alt="CSEA"
+								style={{
+									width: "175px",
+									height: "100px",
+									borderRadius: "20px",
+								}}
+							></img>
+						</a>
 						<a
 							href="https://www.cb.mitindia.edu/"
 							target={"blank"}
@@ -167,6 +173,21 @@ function Sponsors() {
 						</a>
 					</div>
 					<div className="community-row">
+					<a
+							href="https://www.istaceg.in/"
+							target={"blank"}
+							style={{ textDecoration: "none" }}
+						>
+							<img
+								src="assets/ISTA.png"
+								alt="ISTA"
+								style={{
+									width: "250px",
+									height: "175px",
+									borderRadius: "20px",
+								}}
+							></img>
+						</a>
 						<a
 							href="https://acmnitt.in/"
 							target={"blank"}
